@@ -1,0 +1,458 @@
+/home/bowang/.local/lib/python3.5/site-packages/numpy
+├── add_newdocs.py
+├── compat
+│   ├── __init__.py
+│   ├── _inspect.py
+│   ├── py3k.py
+│   └── setup.py
+├── __config__.py
+├── conftest.py
+├── core
+│   ├── arrayprint.py
+│   ├── cversions.py
+│   ├── defchararray.py
+│   ├── _dummy.cpython-35m-x86_64-linux-gnu.so
+│   ├── einsumfunc.py
+│   ├── fromnumeric.py
+│   ├── function_base.py
+│   ├── generate_numpy_api.py
+│   ├── getlimits.py
+│   ├── include
+│   │   └── numpy
+│   │       ├── arrayobject.h
+│   │       ├── arrayscalars.h
+│   │       ├── halffloat.h
+│   │       ├── __multiarray_api.h
+│   │       ├── multiarray_api.txt
+│   │       ├── ndarrayobject.h
+│   │       ├── ndarraytypes.h
+│   │       ├── _neighborhood_iterator_imp.h
+│   │       ├── noprefix.h
+│   │       ├── npy_1_7_deprecated_api.h
+│   │       ├── npy_3kcompat.h
+│   │       ├── npy_common.h
+│   │       ├── npy_cpu.h
+│   │       ├── npy_endian.h
+│   │       ├── npy_interrupt.h
+│   │       ├── npy_math.h
+│   │       ├── npy_no_deprecated_api.h
+│   │       ├── npy_os.h
+│   │       ├── _numpyconfig.h
+│   │       ├── numpyconfig.h
+│   │       ├── old_defines.h
+│   │       ├── oldnumeric.h
+│   │       ├── __ufunc_api.h
+│   │       ├── ufunc_api.txt
+│   │       ├── ufuncobject.h
+│   │       └── utils.h
+│   ├── info.py
+│   ├── __init__.py
+│   ├── _internal.py
+│   ├── lib
+│   │   ├── libnpymath.a
+│   │   └── npy-pkg-config
+│   │       ├── mlib.ini
+│   │       └── npymath.ini
+│   ├── machar.py
+│   ├── memmap.py
+│   ├── _methods.py
+│   ├── multiarray.cpython-35m-x86_64-linux-gnu.so
+│   ├── multiarray_tests.cpython-35m-x86_64-linux-gnu.so
+│   ├── numeric.py
+│   ├── numerictypes.py
+│   ├── operand_flag_tests.cpython-35m-x86_64-linux-gnu.so
+│   ├── records.py
+│   ├── setup_common.py
+│   ├── setup.py
+│   ├── shape_base.py
+│   ├── struct_ufunc_test.cpython-35m-x86_64-linux-gnu.so
+│   ├── test_rational.cpython-35m-x86_64-linux-gnu.so
+│   ├── tests
+│   │   ├── data
+│   │   │   ├── astype_copy.pkl
+│   │   │   └── recarray_from_file.fits
+│   │   ├── __init__.py
+│   │   ├── test_abc.py
+│   │   ├── test_api.py
+│   │   ├── test_arrayprint.py
+│   │   ├── test_datetime.py
+│   │   ├── test_defchararray.py
+│   │   ├── test_deprecations.py
+│   │   ├── test_dtype.py
+│   │   ├── test_einsum.py
+│   │   ├── test_errstate.py
+│   │   ├── test_extint128.py
+│   │   ├── test_function_base.py
+│   │   ├── test_getlimits.py
+│   │   ├── test_half.py
+│   │   ├── test_indexerrors.py
+│   │   ├── test_indexing.py
+│   │   ├── test_item_selection.py
+│   │   ├── test_longdouble.py
+│   │   ├── test_machar.py
+│   │   ├── test_memmap.py
+│   │   ├── test_mem_overlap.py
+│   │   ├── test_multiarray.py
+│   │   ├── test_nditer.py
+│   │   ├── test_numeric.py
+│   │   ├── test_numerictypes.py
+│   │   ├── test_print.py
+│   │   ├── test_records.py
+│   │   ├── test_regression.py
+│   │   ├── test_scalar_ctors.py
+│   │   ├── test_scalarinherit.py
+│   │   ├── test_scalarmath.py
+│   │   ├── test_scalarprint.py
+│   │   ├── test_shape_base.py
+│   │   ├── test_ufunc.py
+│   │   ├── test_umath_complex.py
+│   │   ├── test_umath.py
+│   │   └── test_unicode.py
+│   ├── umath.cpython-35m-x86_64-linux-gnu.so
+│   └── umath_tests.cpython-35m-x86_64-linux-gnu.so
+├── ctypeslib.py
+├── _distributor_init.py
+├── distutils
+│   ├── ccompiler.py
+│   ├── command
+│   │   ├── autodist.py
+│   │   ├── bdist_rpm.py
+│   │   ├── build_clib.py
+│   │   ├── build_ext.py
+│   │   ├── build.py
+│   │   ├── build_py.py
+│   │   ├── build_scripts.py
+│   │   ├── build_src.py
+│   │   ├── config_compiler.py
+│   │   ├── config.py
+│   │   ├── develop.py
+│   │   ├── egg_info.py
+│   │   ├── __init__.py
+│   │   ├── install_clib.py
+│   │   ├── install_data.py
+│   │   ├── install_headers.py
+│   │   ├── install.py
+│   │   └── sdist.py
+│   ├── compat.py
+│   ├── __config__.py
+│   ├── conv_template.py
+│   ├── core.py
+│   ├── cpuinfo.py
+│   ├── environment.py
+│   ├── exec_command.py
+│   ├── extension.py
+│   ├── fcompiler
+│   │   ├── absoft.py
+│   │   ├── compaq.py
+│   │   ├── g95.py
+│   │   ├── gnu.py
+│   │   ├── hpux.py
+│   │   ├── ibm.py
+│   │   ├── __init__.py
+│   │   ├── intel.py
+│   │   ├── lahey.py
+│   │   ├── mips.py
+│   │   ├── nag.py
+│   │   ├── none.py
+│   │   ├── pathf95.py
+│   │   ├── pg.py
+│   │   ├── sun.py
+│   │   └── vast.py
+│   ├── from_template.py
+│   ├── info.py
+│   ├── __init__.py
+│   ├── intelccompiler.py
+│   ├── lib2def.py
+│   ├── line_endings.py
+│   ├── log.py
+│   ├── mingw
+│   │   └── gfortran_vs2003_hack.c
+│   ├── mingw32ccompiler.py
+│   ├── misc_util.py
+│   ├── msvc9compiler.py
+│   ├── msvccompiler.py
+│   ├── npy_pkg_config.py
+│   ├── numpy_distribution.py
+│   ├── pathccompiler.py
+│   ├── setup.py
+│   ├── system_info.py
+│   ├── tests
+│   │   ├── __init__.py
+│   │   ├── test_exec_command.py
+│   │   ├── test_fcompiler_gnu.py
+│   │   ├── test_fcompiler_intel.py
+│   │   ├── test_fcompiler_nagfor.py
+│   │   ├── test_misc_util.py
+│   │   ├── test_npy_pkg_config.py
+│   │   └── test_system_info.py
+│   ├── unixccompiler.py
+│   └── __version__.py
+├── doc
+│   ├── basics.py
+│   ├── broadcasting.py
+│   ├── byteswapping.py
+│   ├── constants.py
+│   ├── creation.py
+│   ├── glossary.py
+│   ├── indexing.py
+│   ├── __init__.py
+│   ├── internals.py
+│   ├── misc.py
+│   ├── structured_arrays.py
+│   ├── subclassing.py
+│   └── ufuncs.py
+├── dual.py
+├── f2py
+│   ├── auxfuncs.py
+│   ├── capi_maps.py
+│   ├── cb_rules.py
+│   ├── cfuncs.py
+│   ├── common_rules.py
+│   ├── crackfortran.py
+│   ├── diagnose.py
+│   ├── f2py2e.py
+│   ├── f2py_testing.py
+│   ├── f90mod_rules.py
+│   ├── func2subr.py
+│   ├── info.py
+│   ├── __init__.py
+│   ├── __main__.py
+│   ├── rules.py
+│   ├── setup.py
+│   ├── src
+│   │   ├── fortranobject.c
+│   │   └── fortranobject.h
+│   ├── tests
+│   │   ├── __init__.py
+│   │   ├── src
+│   │   │   ├── array_from_pyobj
+│   │   │   │   └── wrapmodule.c
+│   │   │   ├── assumed_shape
+│   │   │   │   ├── .f2py_f2cmap
+│   │   │   │   ├── foo_free.f90
+│   │   │   │   ├── foo_mod.f90
+│   │   │   │   ├── foo_use.f90
+│   │   │   │   └── precision.f90
+│   │   │   ├── common
+│   │   │   │   └── block.f
+│   │   │   ├── kind
+│   │   │   │   └── foo.f90
+│   │   │   ├── mixed
+│   │   │   │   ├── foo.f
+│   │   │   │   ├── foo_fixed.f90
+│   │   │   │   └── foo_free.f90
+│   │   │   ├── parameter
+│   │   │   │   ├── constant_both.f90
+│   │   │   │   ├── constant_compound.f90
+│   │   │   │   ├── constant_integer.f90
+│   │   │   │   ├── constant_non_compound.f90
+│   │   │   │   └── constant_real.f90
+│   │   │   ├── regression
+│   │   │   │   └── inout.f90
+│   │   │   ├── size
+│   │   │   │   └── foo.f90
+│   │   │   └── string
+│   │   │       └── char.f90
+│   │   ├── test_array_from_pyobj.py
+│   │   ├── test_assumed_shape.py
+│   │   ├── test_block_docstring.py
+│   │   ├── test_callback.py
+│   │   ├── test_common.py
+│   │   ├── test_kind.py
+│   │   ├── test_mixed.py
+│   │   ├── test_parameter.py
+│   │   ├── test_regression.py
+│   │   ├── test_return_character.py
+│   │   ├── test_return_complex.py
+│   │   ├── test_return_integer.py
+│   │   ├── test_return_logical.py
+│   │   ├── test_return_real.py
+│   │   ├── test_size.py
+│   │   ├── test_string.py
+│   │   └── util.py
+│   ├── use_rules.py
+│   └── __version__.py
+├── fft
+│   ├── fftpack_lite.cpython-35m-x86_64-linux-gnu.so
+│   ├── fftpack.py
+│   ├── helper.py
+│   ├── info.py
+│   ├── __init__.py
+│   ├── setup.py
+│   └── tests
+│       ├── __init__.py
+│       ├── test_fftpack.py
+│       └── test_helper.py
+├── _globals.py
+├── _import_tools.py
+├── __init__.py
+├── lib
+│   ├── arraypad.py
+│   ├── arraysetops.py
+│   ├── arrayterator.py
+│   ├── _datasource.py
+│   ├── financial.py
+│   ├── format.py
+│   ├── function_base.py
+│   ├── index_tricks.py
+│   ├── info.py
+│   ├── __init__.py
+│   ├── _iotools.py
+│   ├── mixins.py
+│   ├── nanfunctions.py
+│   ├── npyio.py
+│   ├── polynomial.py
+│   ├── recfunctions.py
+│   ├── scimath.py
+│   ├── setup.py
+│   ├── shape_base.py
+│   ├── stride_tricks.py
+│   ├── tests
+│   │   ├── data
+│   │   │   ├── py2-objarr.npy
+│   │   │   ├── py2-objarr.npz
+│   │   │   ├── py3-objarr.npy
+│   │   │   ├── py3-objarr.npz
+│   │   │   ├── python3.npy
+│   │   │   └── win64python2.npy
+│   │   ├── __init__.py
+│   │   ├── test_arraypad.py
+│   │   ├── test_arraysetops.py
+│   │   ├── test_arrayterator.py
+│   │   ├── test__datasource.py
+│   │   ├── test_financial.py
+│   │   ├── test_format.py
+│   │   ├── test_function_base.py
+│   │   ├── test_index_tricks.py
+│   │   ├── test_io.py
+│   │   ├── test__iotools.py
+│   │   ├── test_mixins.py
+│   │   ├── test_nanfunctions.py
+│   │   ├── test_packbits.py
+│   │   ├── test_polynomial.py
+│   │   ├── test_recfunctions.py
+│   │   ├── test_regression.py
+│   │   ├── test_shape_base.py
+│   │   ├── test_stride_tricks.py
+│   │   ├── test_twodim_base.py
+│   │   ├── test_type_check.py
+│   │   ├── test_ufunclike.py
+│   │   ├── test_utils.py
+│   │   └── test__version.py
+│   ├── twodim_base.py
+│   ├── type_check.py
+│   ├── ufunclike.py
+│   ├── user_array.py
+│   ├── utils.py
+│   └── _version.py
+├── .libs
+│   ├── libgfortran-ed201abd.so.3.0.0
+│   └── libopenblasp-r0-39a31c03.2.18.so
+├── LICENSE.txt
+├── linalg
+│   ├── info.py
+│   ├── __init__.py
+│   ├── lapack_lite.cpython-35m-x86_64-linux-gnu.so
+│   ├── linalg.py
+│   ├── setup.py
+│   ├── tests
+│   │   ├── __init__.py
+│   │   ├── test_build.py
+│   │   ├── test_deprecations.py
+│   │   ├── test_linalg.py
+│   │   └── test_regression.py
+│   └── _umath_linalg.cpython-35m-x86_64-linux-gnu.so
+├── ma
+│   ├── bench.py
+│   ├── core.py
+│   ├── extras.py
+│   ├── __init__.py
+│   ├── mrecords.py
+│   ├── setup.py
+│   ├── tests
+│   │   ├── __init__.py
+│   │   ├── test_core.py
+│   │   ├── test_deprecations.py
+│   │   ├── test_extras.py
+│   │   ├── test_mrecords.py
+│   │   ├── test_old_ma.py
+│   │   ├── test_regression.py
+│   │   └── test_subclassing.py
+│   ├── testutils.py
+│   ├── timer_comparison.py
+│   └── version.py
+├── matlib.py
+├── matrixlib
+│   ├── defmatrix.py
+│   ├── __init__.py
+│   ├── setup.py
+│   └── tests
+│       ├── __init__.py
+│       ├── test_defmatrix.py
+│       ├── test_multiarray.py
+│       ├── test_numeric.py
+│       └── test_regression.py
+├── polynomial
+│   ├── chebyshev.py
+│   ├── hermite_e.py
+│   ├── hermite.py
+│   ├── __init__.py
+│   ├── laguerre.py
+│   ├── legendre.py
+│   ├── _polybase.py
+│   ├── polynomial.py
+│   ├── polyutils.py
+│   ├── setup.py
+│   └── tests
+│       ├── __init__.py
+│       ├── test_chebyshev.py
+│       ├── test_classes.py
+│       ├── test_hermite_e.py
+│       ├── test_hermite.py
+│       ├── test_laguerre.py
+│       ├── test_legendre.py
+│       ├── test_polynomial.py
+│       ├── test_polyutils.py
+│       └── test_printing.py
+├── random
+│   ├── info.py
+│   ├── __init__.py
+│   ├── mtrand.cpython-35m-x86_64-linux-gnu.so
+│   ├── randomkit.h
+│   ├── setup.py
+│   └── tests
+│       ├── __init__.py
+│       ├── test_random.py
+│       └── test_regression.py
+├── setup.py
+├── testing
+│   ├── decorators.py
+│   ├── __init__.py
+│   ├── noseclasses.py
+│   ├── nosetester.py
+│   ├── nose_tools
+│   │   ├── decorators.py
+│   │   ├── __init__.py
+│   │   ├── noseclasses.py
+│   │   ├── nosetester.py
+│   │   ├── parameterized.py
+│   │   └── utils.py
+│   ├── print_coercion_tables.py
+│   ├── setup.py
+│   ├── tests
+│   │   ├── __init__.py
+│   │   ├── test_decorators.py
+│   │   ├── test_doctesting.py
+│   │   └── test_utils.py
+│   └── utils.py
+├── tests
+│   ├── __init__.py
+│   ├── test_ctypeslib.py
+│   ├── test_matlib.py
+│   ├── test_numpy_version.py
+│   ├── test_reloading.py
+│   ├── test_scripts.py
+│   └── test_warnings.py
+└── version.py
+
+47 directories, 408 files

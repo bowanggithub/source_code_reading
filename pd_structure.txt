@@ -1,0 +1,893 @@
+/home/bowang/.local/lib/python3.5/site-packages/pandas
+├── api (# import defined types and help functions)
+│   ├── __init__.py (#1 empty)
+│   └── types (#)
+│       └── __init__.py (#2 import from pd.core and pd._libs)
+├── compat
+│   ├── chainmap_impl.py (#4 Here defines a ChainMap class and related functions)
+│   ├── chainmap.py (#3 import ChainMap from collections, if error, import from chainmap_impl.py; and define DeepChainMap; DeepChainMap is like a name space, we search a variable name from local->    global->builtin; and inner variable hides the outside ones.)
+│   ├── __init__.py (#6 deals with the key difference between py2 and py3, worth to know.)
+│   ├── numpy (provide np compatibility)
+│   │   ├── function.py
+│   │   └── __init__.py (#8 get np versions and compat funcs of tz and datetime64)
+│   ├── openpyxl_compat.py (#5 detect incompatible version of OpenPyXl, a py package to read/write excel)
+│   └── pickle_compat.py (#7 support pickle compatibility)
+├── computation (# only for compat use, see pd.core.config)
+│   ├── expressions.py (#10 deprecated)
+│   └── __init__.py (#9 empty)
+├── conftest.py
+├── core
+│   ├── accessor.py
+│   ├── algorithms.py
+│   ├── api.py
+│   ├── base.py
+│   ├── categorical.py
+│   ├── common.py
+│   ├── computation
+│   │   ├── align.py
+│   │   ├── api.py
+│   │   ├── check.py
+│   │   ├── common.py
+│   │   ├── engines.py
+│   │   ├── eval.py
+│   │   ├── expressions.py
+│   │   ├── expr.py
+│   │   ├── __init__.py
+│   │   ├── ops.py
+│   │   ├── pytables.py
+│   │   └── scope.py
+│   ├── config_init.py
+│   ├── config.py
+│   ├── datetools.py
+│   ├── dtypes
+│   │   ├── api.py
+│   │   ├── cast.py
+│   │   ├── common.py
+│   │   ├── concat.py
+│   │   ├── dtypes.py
+│   │   ├── generic.py
+│   │   ├── inference.py
+│   │   ├── __init__.py
+│   │   └── missing.py
+│   ├── frame.py
+│   ├── generic.py
+│   ├── groupby.py
+│   ├── indexes
+│   │   ├── accessors.py
+│   │   ├── api.py
+│   │   ├── base.py
+│   │   ├── category.py
+│   │   ├── datetimelike.py
+│   │   ├── datetimes.py
+│   │   ├── frozen.py
+│   │   ├── __init__.py
+│   │   ├── interval.py
+│   │   ├── multi.py
+│   │   ├── numeric.py
+│   │   ├── period.py
+│   │   ├── range.py
+│   │   └── timedeltas.py
+│   ├── indexing.py
+│   ├── index.py
+│   ├── __init__.py
+│   ├── internals.py
+│   ├── missing.py
+│   ├── nanops.py
+│   ├── ops.py
+│   ├── panel4d.py
+│   ├── panelnd.py
+│   ├── panel.py
+│   ├── resample.py
+│   ├── reshape
+│   │   ├── api.py
+│   │   ├── concat.py
+│   │   ├── __init__.py
+│   │   ├── merge.py
+│   │   ├── pivot.py
+│   │   ├── reshape.py
+│   │   ├── tile.py
+│   │   └── util.py
+│   ├── series.py
+│   ├── sorting.py
+│   ├── sparse
+│   │   ├── api.py
+│   │   ├── array.py
+│   │   ├── frame.py
+│   │   ├── __init__.py
+│   │   ├── list.py
+│   │   ├── scipy_sparse.py
+│   │   └── series.py
+│   ├── strings.py
+│   ├── tools
+│   │   ├── datetimes.py
+│   │   ├── __init__.py
+│   │   ├── numeric.py
+│   │   └── timedeltas.py
+│   ├── util
+│   │   ├── hashing.py
+│   │   └── __init__.py
+│   └── window.py
+├── errors (#)
+│   └── __init__.py (#11 defines exceptions and warnings used in pd, ex. PerformanceWarning)
+├── formats (#)
+│   ├── __init__.py (#18 empty)
+│   └── style.py (#19 deprecated, see pd.io.formats.style)
+├── __init__.py
+├── io
+│   ├── api.py
+│   ├── clipboard
+│   │   ├── clipboards.py
+│   │   ├── exceptions.py
+│   │   ├── __init__.py
+│   │   └── windows.py
+│   ├── clipboards.py
+│   ├── common.py
+│   ├── data.py
+│   ├── date_converters.py
+│   ├── excel.py
+│   ├── feather_format.py
+│   ├── formats
+│   │   ├── common.py
+│   │   ├── console.py
+│   │   ├── css.py
+│   │   ├── excel.py
+│   │   ├── format.py
+│   │   ├── __init__.py
+│   │   ├── printing.py
+│   │   ├── style.py
+│   │   ├── templates
+│   │   │   └── html.tpl
+│   │   └── terminal.py
+│   ├── gbq.py
+│   ├── html.py
+│   ├── __init__.py
+│   ├── json
+│   │   ├── __init__.py
+│   │   ├── json.py
+│   │   ├── normalize.py
+│   │   └── table_schema.py
+│   ├── msgpack
+│   │   ├── exceptions.py
+│   │   ├── __init__.py
+│   │   ├── _packer.cpython-35m-x86_64-linux-gnu.so
+│   │   ├── _unpacker.cpython-35m-x86_64-linux-gnu.so
+│   │   └── _version.py
+│   ├── packers.py
+│   ├── parquet.py
+│   ├── parsers.py
+│   ├── pickle.py
+│   ├── pytables.py
+│   ├── s3.py
+│   ├── sas
+│   │   ├── __init__.py
+│   │   ├── sas7bdat.py
+│   │   ├── sas_constants.py
+│   │   ├── _sas.cpython-35m-x86_64-linux-gnu.so
+│   │   ├── sasreader.py
+│   │   └── sas_xport.py
+│   ├── sql.py
+│   ├── stata.py
+│   └── wb.py
+├── json.py (#17 deprecated, see pd._libs.json)
+├── lib.py (#12 deprecated, see pd._libs.lib)
+├── _libs (defines types and functions, only signatures available to read)
+│   ├── algos.cpython-35m-x86_64-linux-gnu.so
+│   ├── groupby.cpython-35m-x86_64-linux-gnu.so
+│   ├── hashing.cpython-35m-x86_64-linux-gnu.so
+│   ├── hashtable.cpython-35m-x86_64-linux-gnu.so
+│   ├── index.cpython-35m-x86_64-linux-gnu.so
+│   ├── __init__.py
+│   ├── interval.cpython-35m-x86_64-linux-gnu.so
+│   ├── join.cpython-35m-x86_64-linux-gnu.so
+│   ├── json.cpython-35m-x86_64-linux-gnu.so
+│   ├── lib.cpython-35m-x86_64-linux-gnu.so
+│   ├── parsers.cpython-35m-x86_64-linux-gnu.so
+│   ├── period.cpython-35m-x86_64-linux-gnu.so
+│   ├── properties.cpython-35m-x86_64-linux-gnu.so
+│   ├── reshape.cpython-35m-x86_64-linux-gnu.so
+│   ├── sparse.cpython-35m-x86_64-linux-gnu.so
+│   ├── testing.cpython-35m-x86_64-linux-gnu.so
+│   ├── tslib.cpython-35m-x86_64-linux-gnu.so
+│   ├── tslibs
+│   │   ├── fields.cpython-35m-x86_64-linux-gnu.so
+│   │   ├── frequencies.cpython-35m-x86_64-linux-gnu.so
+│   │   ├── __init__.py
+│   │   ├── parsing.cpython-35m-x86_64-linux-gnu.so
+│   │   ├── strptime.cpython-35m-x86_64-linux-gnu.so
+│   │   ├── timedeltas.cpython-35m-x86_64-linux-gnu.so
+│   │   └── timezones.cpython-35m-x86_64-linux-gnu.so
+│   └── window.cpython-35m-x86_64-linux-gnu.so
+├── parser.py (#13 deprecated, see pd._libs.parser and pd.io.common)
+├── plotting
+│   ├── _compat.py
+│   ├── _converter.py
+│   ├── _core.py
+│   ├── __init__.py
+│   ├── _misc.py
+│   ├── _style.py
+│   ├── _timeseries.py
+│   └── _tools.py
+├── stats
+│   ├── api.py
+│   ├── __init__.py
+│   └── moments.py
+├── testing.py (#14 import from pd.util.testing)
+├── tests
+│   ├── api
+│   │   ├── __init__.py
+│   │   ├── test_api.py
+│   │   └── test_types.py
+│   ├── computation
+│   │   ├── __init__.py
+│   │   ├── test_compat.py
+│   │   └── test_eval.py
+│   ├── data
+│   │   ├── iris.csv
+│   │   └── tips.csv
+│   ├── dtypes
+│   │   ├── __init__.py
+│   │   ├── test_cast.py
+│   │   ├── test_common.py
+│   │   ├── test_concat.py
+│   │   ├── test_dtypes.py
+│   │   ├── test_generic.py
+│   │   ├── test_inference.py
+│   │   ├── test_io.py
+│   │   └── test_missing.py
+│   ├── frame
+│   │   ├── common.py
+│   │   ├── __init__.py
+│   │   ├── test_alter_axes.py
+│   │   ├── test_analytics.py
+│   │   ├── test_api.py
+│   │   ├── test_apply.py
+│   │   ├── test_asof.py
+│   │   ├── test_axis_select_reindex.py
+│   │   ├── test_block_internals.py
+│   │   ├── test_combine_concat.py
+│   │   ├── test_constructors.py
+│   │   ├── test_convert_to.py
+│   │   ├── test_dtypes.py
+│   │   ├── test_indexing.py
+│   │   ├── test_join.py
+│   │   ├── test_missing.py
+│   │   ├── test_mutate_columns.py
+│   │   ├── test_nonunique_indexes.py
+│   │   ├── test_operators.py
+│   │   ├── test_period.py
+│   │   ├── test_quantile.py
+│   │   ├── test_query_eval.py
+│   │   ├── test_rank.py
+│   │   ├── test_replace.py
+│   │   ├── test_repr_info.py
+│   │   ├── test_reshape.py
+│   │   ├── test_sorting.py
+│   │   ├── test_subclass.py
+│   │   ├── test_timeseries.py
+│   │   ├── test_to_csv.py
+│   │   └── test_validate.py
+│   ├── groupby
+│   │   ├── common.py
+│   │   ├── __init__.py
+│   │   ├── test_aggregate.py
+│   │   ├── test_bin_groupby.py
+│   │   ├── test_categorical.py
+│   │   ├── test_counting.py
+│   │   ├── test_filters.py
+│   │   ├── test_groupby.py
+│   │   ├── test_index_as_string.py
+│   │   ├── test_nth.py
+│   │   ├── test_timegrouper.py
+│   │   ├── test_transform.py
+│   │   ├── test_value_counts.py
+│   │   └── test_whitelist.py
+│   ├── indexes
+│   │   ├── common.py
+│   │   ├── conftest.py
+│   │   ├── data
+│   │   │   ├── mindex_073.pickle
+│   │   │   └── multiindex_v1.pickle
+│   │   ├── datetimelike.py
+│   │   ├── datetimes
+│   │   │   ├── __init__.py
+│   │   │   ├── test_astype.py
+│   │   │   ├── test_construction.py
+│   │   │   ├── test_date_range.py
+│   │   │   ├── test_datetimelike.py
+│   │   │   ├── test_datetime.py
+│   │   │   ├── test_formats.py
+│   │   │   ├── test_indexing.py
+│   │   │   ├── test_misc.py
+│   │   │   ├── test_missing.py
+│   │   │   ├── test_ops.py
+│   │   │   ├── test_partial_slicing.py
+│   │   │   ├── test_setops.py
+│   │   │   └── test_tools.py
+│   │   ├── __init__.py
+│   │   ├── period
+│   │   │   ├── __init__.py
+│   │   │   ├── test_asfreq.py
+│   │   │   ├── test_construction.py
+│   │   │   ├── test_formats.py
+│   │   │   ├── test_indexing.py
+│   │   │   ├── test_ops.py
+│   │   │   ├── test_partial_slicing.py
+│   │   │   ├── test_period.py
+│   │   │   ├── test_period_range.py
+│   │   │   ├── test_setops.py
+│   │   │   └── test_tools.py
+│   │   ├── test_base.py
+│   │   ├── test_category.py
+│   │   ├── test_frozen.py
+│   │   ├── test_interval.py
+│   │   ├── test_multi.py
+│   │   ├── test_numeric.py
+│   │   ├── test_range.py
+│   │   └── timedeltas
+│   │       ├── __init__.py
+│   │       ├── test_astype.py
+│   │       ├── test_construction.py
+│   │       ├── test_indexing.py
+│   │       ├── test_ops.py
+│   │       ├── test_partial_slicing.py
+│   │       ├── test_setops.py
+│   │       ├── test_timedelta.py
+│   │       ├── test_timedelta_range.py
+│   │       └── test_tools.py
+│   ├── indexing
+│   │   ├── common.py
+│   │   ├── __init__.py
+│   │   ├── test_callable.py
+│   │   ├── test_categorical.py
+│   │   ├── test_chaining_and_caching.py
+│   │   ├── test_coercion.py
+│   │   ├── test_datetime.py
+│   │   ├── test_floats.py
+│   │   ├── test_iloc.py
+│   │   ├── test_indexing.py
+│   │   ├── test_indexing_slow.py
+│   │   ├── test_interval.py
+│   │   ├── test_ix.py
+│   │   ├── test_loc.py
+│   │   ├── test_multiindex.py
+│   │   ├── test_panel.py
+│   │   ├── test_partial.py
+│   │   ├── test_scalar.py
+│   │   └── test_timedelta.py
+│   ├── __init__.py
+│   ├── internals
+│   │   ├── __init__.py
+│   │   ├── test_external_block.py
+│   │   └── test_internals.py
+│   ├── io
+│   │   ├── data
+│   │   │   ├── banklist.csv
+│   │   │   ├── banklist.html
+│   │   │   ├── blank_with_header.xls
+│   │   │   ├── blank_with_header.xlsm
+│   │   │   ├── blank_with_header.xlsx
+│   │   │   ├── blank.xls
+│   │   │   ├── blank.xlsm
+│   │   │   ├── blank.xlsx
+│   │   │   ├── categorical_0_14_1.pickle
+│   │   │   ├── categorical_0_15_2.pickle
+│   │   │   ├── computer_sales_page.html
+│   │   │   ├── fixed_width_format.txt
+│   │   │   ├── gbq_fake_job.txt
+│   │   │   ├── html_encoding
+│   │   │   │   ├── chinese_utf-16.html
+│   │   │   │   ├── chinese_utf-32.html
+│   │   │   │   ├── chinese_utf-8.html
+│   │   │   │   └── letz_latin1.html
+│   │   │   ├── iris.csv
+│   │   │   ├── legacy_hdf
+│   │   │   │   ├── datetimetz_object.h5
+│   │   │   │   ├── legacy_table.h5
+│   │   │   │   ├── periodindex_0.20.1_x86_64_darwin_2.7.13.h5
+│   │   │   │   ├── pytables_native2.h5
+│   │   │   │   └── pytables_native.h5
+│   │   │   ├── legacy_msgpack
+│   │   │   │   ├── 0.16.0
+│   │   │   │   │   └── 0.16.0_x86_64_darwin_2.7.9.msgpack
+│   │   │   │   ├── 0.16.2
+│   │   │   │   │   ├── 0.16.2_AMD64_windows_2.7.10.msgpack
+│   │   │   │   │   ├── 0.16.2_AMD64_windows_3.4.3.msgpack
+│   │   │   │   │   ├── 0.16.2_x86_64_darwin_2.7.10.msgpack
+│   │   │   │   │   ├── 0.16.2_x86_64_darwin_2.7.9.msgpack
+│   │   │   │   │   ├── 0.16.2_x86_64_darwin_3.4.3.msgpack
+│   │   │   │   │   ├── 0.16.2_x86_64_linux_2.7.10.msgpack
+│   │   │   │   │   └── 0.16.2_x86_64_linux_3.4.3.msgpack
+│   │   │   │   ├── 0.17.0
+│   │   │   │   │   ├── 0.17.0_AMD64_windows_2.7.11.msgpack
+│   │   │   │   │   ├── 0.17.0_AMD64_windows_3.4.4.msgpack
+│   │   │   │   │   ├── 0.17.0_x86_64_darwin_2.7.11.msgpack
+│   │   │   │   │   ├── 0.17.0_x86_64_darwin_3.4.4.msgpack
+│   │   │   │   │   ├── 0.17.0_x86_64_linux_2.7.11.msgpack
+│   │   │   │   │   ├── 0.17.0_x86_64_linux_3.4.4.msgpack
+│   │   │   │   │   ├── 0.17.1_AMD64_windows_2.7.11.msgpack
+│   │   │   │   │   └── 0.17.1_AMD64_windows_3.5.1.msgpack
+│   │   │   │   ├── 0.17.1
+│   │   │   │   │   ├── 0.17.1_AMD64_windows_2.7.11.msgpack
+│   │   │   │   │   ├── 0.17.1_AMD64_windows_3.5.1.msgpack
+│   │   │   │   │   ├── 0.17.1_x86_64_darwin_2.7.11.msgpack
+│   │   │   │   │   ├── 0.17.1_x86_64_darwin_3.5.1.msgpack
+│   │   │   │   │   ├── 0.17.1_x86_64_linux_2.7.11.msgpack
+│   │   │   │   │   └── 0.17.1_x86_64_linux_3.4.4.msgpack
+│   │   │   │   ├── 0.18.0
+│   │   │   │   │   ├── 0.18.0_AMD64_windows_2.7.11.msgpack
+│   │   │   │   │   ├── 0.18.0_AMD64_windows_3.5.1.msgpack
+│   │   │   │   │   ├── 0.18.0_x86_64_darwin_2.7.11.msgpack
+│   │   │   │   │   └── 0.18.0_x86_64_darwin_3.5.1.msgpack
+│   │   │   │   ├── 0.18.1
+│   │   │   │   │   ├── 0.18.1_x86_64_darwin_2.7.12.msgpack
+│   │   │   │   │   └── 0.18.1_x86_64_darwin_3.5.2.msgpack
+│   │   │   │   └── 0.19.2
+│   │   │   │       ├── 0.19.2_x86_64_darwin_2.7.12.msgpack
+│   │   │   │       └── 0.19.2_x86_64_darwin_3.6.1.msgpack
+│   │   │   ├── legacy_pickle
+│   │   │   │   ├── 0.10.1
+│   │   │   │   │   ├── AMD64_windows_2.7.3.pickle
+│   │   │   │   │   └── x86_64_linux_2.7.3.pickle
+│   │   │   │   ├── 0.11.0
+│   │   │   │   │   ├── 0.11.0_x86_64_linux_3.3.0.pickle
+│   │   │   │   │   ├── x86_64_linux_2.7.3.pickle
+│   │   │   │   │   └── x86_64_linux_3.3.0.pickle
+│   │   │   │   ├── 0.12.0
+│   │   │   │   │   ├── 0.12.0_AMD64_windows_2.7.3.pickle
+│   │   │   │   │   └── 0.12.0_x86_64_linux_2.7.3.pickle
+│   │   │   │   ├── 0.13.0
+│   │   │   │   │   ├── 0.13.0_AMD64_windows_2.7.3.pickle
+│   │   │   │   │   ├── 0.13.0_i686_linux_2.6.5.pickle
+│   │   │   │   │   ├── 0.13.0_i686_linux_2.7.3.pickle
+│   │   │   │   │   ├── 0.13.0_i686_linux_3.2.3.pickle
+│   │   │   │   │   ├── 0.13.0_x86_64_darwin_2.7.5.pickle
+│   │   │   │   │   ├── 0.13.0_x86_64_darwin_2.7.6.pickle
+│   │   │   │   │   ├── 0.13.0_x86_64_linux_2.7.3.pickle
+│   │   │   │   │   ├── 0.13.0_x86_64_linux_2.7.8.pickle
+│   │   │   │   │   └── 0.13.0_x86_64_linux_3.3.0.pickle
+│   │   │   │   ├── 0.14.0
+│   │   │   │   │   ├── 0.14.0_x86_64_darwin_2.7.6.pickle
+│   │   │   │   │   └── 0.14.0_x86_64_linux_2.7.8.pickle
+│   │   │   │   ├── 0.14.1
+│   │   │   │   │   ├── 0.14.1_x86_64_darwin_2.7.12.pickle
+│   │   │   │   │   └── 0.14.1_x86_64_linux_2.7.8.pickle
+│   │   │   │   ├── 0.15.0
+│   │   │   │   │   ├── 0.15.0_x86_64_darwin_2.7.12.pickle
+│   │   │   │   │   └── 0.15.0_x86_64_linux_2.7.8.pickle
+│   │   │   │   ├── 0.15.2
+│   │   │   │   │   └── 0.15.2_x86_64_darwin_2.7.9.pickle
+│   │   │   │   ├── 0.16.0
+│   │   │   │   │   └── 0.16.0_x86_64_darwin_2.7.9.pickle
+│   │   │   │   ├── 0.16.2
+│   │   │   │   │   ├── 0.16.2_AMD64_windows_2.7.10.pickle
+│   │   │   │   │   ├── 0.16.2_AMD64_windows_3.4.3.pickle
+│   │   │   │   │   ├── 0.16.2_x86_64_darwin_2.7.10.pickle
+│   │   │   │   │   ├── 0.16.2_x86_64_darwin_2.7.9.pickle
+│   │   │   │   │   ├── 0.16.2_x86_64_darwin_3.4.3.pickle
+│   │   │   │   │   ├── 0.16.2_x86_64_linux_2.7.10.pickle
+│   │   │   │   │   └── 0.16.2_x86_64_linux_3.4.3.pickle
+│   │   │   │   ├── 0.17.0
+│   │   │   │   │   ├── 0.17.0_AMD64_windows_2.7.11.pickle
+│   │   │   │   │   ├── 0.17.0_AMD64_windows_3.4.4.pickle
+│   │   │   │   │   ├── 0.17.0_x86_64_darwin_2.7.11.pickle
+│   │   │   │   │   ├── 0.17.0_x86_64_darwin_3.4.4.pickle
+│   │   │   │   │   ├── 0.17.0_x86_64_darwin_3.5.3.pickle
+│   │   │   │   │   ├── 0.17.0_x86_64_linux_2.7.11.pickle
+│   │   │   │   │   ├── 0.17.0_x86_64_linux_3.4.4.pickle
+│   │   │   │   │   └── 0.17.1_AMD64_windows_2.7.11.pickle
+│   │   │   │   ├── 0.17.1
+│   │   │   │   │   ├── 0.17.1_AMD64_windows_2.7.11.pickle
+│   │   │   │   │   └── 0.17.1_x86_64_darwin_2.7.11.pickle
+│   │   │   │   ├── 0.18.0
+│   │   │   │   │   ├── 0.18.0_AMD64_windows_2.7.11.pickle
+│   │   │   │   │   ├── 0.18.0_AMD64_windows_3.5.1.pickle
+│   │   │   │   │   ├── 0.18.0_x86_64_darwin_2.7.11.pickle
+│   │   │   │   │   └── 0.18.0_x86_64_darwin_3.5.1.pickle
+│   │   │   │   ├── 0.18.1
+│   │   │   │   │   ├── 0.18.1_x86_64_darwin_2.7.12.pickle
+│   │   │   │   │   └── 0.18.1_x86_64_darwin_3.5.2.pickle
+│   │   │   │   ├── 0.19.2
+│   │   │   │   │   ├── 0.19.2_x86_64_darwin_2.7.12.pickle
+│   │   │   │   │   ├── 0.19.2_x86_64_darwin_2.7.14.pickle
+│   │   │   │   │   └── 0.19.2_x86_64_darwin_3.6.1.pickle
+│   │   │   │   └── 0.20.3
+│   │   │   │       └── 0.20.3_x86_64_darwin_2.7.14.pickle
+│   │   │   ├── macau.html
+│   │   │   ├── nyse_wsj.html
+│   │   │   ├── S4_EDUC1.dta
+│   │   │   ├── spam.html
+│   │   │   ├── stata10_115.dta
+│   │   │   ├── stata10_117.dta
+│   │   │   ├── stata11_115.dta
+│   │   │   ├── stata11_117.dta
+│   │   │   ├── stata1_114.dta
+│   │   │   ├── stata1_117.dta
+│   │   │   ├── stata12_117.dta
+│   │   │   ├── stata14_118.dta
+│   │   │   ├── stata15.dta
+│   │   │   ├── stata1_encoding.dta
+│   │   │   ├── stata2_113.dta
+│   │   │   ├── stata2_114.dta
+│   │   │   ├── stata2_115.dta
+│   │   │   ├── stata2_117.dta
+│   │   │   ├── stata3_113.dta
+│   │   │   ├── stata3_114.dta
+│   │   │   ├── stata3_115.dta
+│   │   │   ├── stata3_117.dta
+│   │   │   ├── stata3.csv
+│   │   │   ├── stata4_113.dta
+│   │   │   ├── stata4_114.dta
+│   │   │   ├── stata4_115.dta
+│   │   │   ├── stata4_117.dta
+│   │   │   ├── stata5_113.dta
+│   │   │   ├── stata5_114.dta
+│   │   │   ├── stata5_115.dta
+│   │   │   ├── stata5_117.dta
+│   │   │   ├── stata5.csv
+│   │   │   ├── stata6_113.dta
+│   │   │   ├── stata6_114.dta
+│   │   │   ├── stata6_115.dta
+│   │   │   ├── stata6_117.dta
+│   │   │   ├── stata6.csv
+│   │   │   ├── stata7_111.dta
+│   │   │   ├── stata7_115.dta
+│   │   │   ├── stata7_117.dta
+│   │   │   ├── stata8_113.dta
+│   │   │   ├── stata8_115.dta
+│   │   │   ├── stata8_117.dta
+│   │   │   ├── stata9_115.dta
+│   │   │   ├── stata9_117.dta
+│   │   │   ├── test1.csv
+│   │   │   ├── test1.xls
+│   │   │   ├── test1.xlsm
+│   │   │   ├── test1.xlsx
+│   │   │   ├── test2.xls
+│   │   │   ├── test2.xlsm
+│   │   │   ├── test2.xlsx
+│   │   │   ├── test3.xls
+│   │   │   ├── test3.xlsm
+│   │   │   ├── test3.xlsx
+│   │   │   ├── test4.xls
+│   │   │   ├── test4.xlsm
+│   │   │   ├── test4.xlsx
+│   │   │   ├── test5.xls
+│   │   │   ├── test5.xlsm
+│   │   │   ├── test5.xlsx
+│   │   │   ├── test_converters.xls
+│   │   │   ├── test_converters.xlsm
+│   │   │   ├── test_converters.xlsx
+│   │   │   ├── testdateoverflow.xls
+│   │   │   ├── testdateoverflow.xlsm
+│   │   │   ├── testdateoverflow.xlsx
+│   │   │   ├── testdtype.xls
+│   │   │   ├── testdtype.xlsm
+│   │   │   ├── testdtype.xlsx
+│   │   │   ├── test_index_name_pre17.xls
+│   │   │   ├── test_index_name_pre17.xlsm
+│   │   │   ├── test_index_name_pre17.xlsx
+│   │   │   ├── test_mmap.csv
+│   │   │   ├── testmultiindex.xls
+│   │   │   ├── testmultiindex.xlsm
+│   │   │   ├── testmultiindex.xlsx
+│   │   │   ├── test_multisheet.xls
+│   │   │   ├── test_multisheet.xlsm
+│   │   │   ├── test_multisheet.xlsx
+│   │   │   ├── testskiprows.xls
+│   │   │   ├── testskiprows.xlsm
+│   │   │   ├── testskiprows.xlsx
+│   │   │   ├── test_squeeze.xls
+│   │   │   ├── test_squeeze.xlsm
+│   │   │   ├── test_squeeze.xlsx
+│   │   │   ├── test_types.xls
+│   │   │   ├── test_types.xlsm
+│   │   │   ├── test_types.xlsx
+│   │   │   ├── times_1900.xls
+│   │   │   ├── times_1900.xlsm
+│   │   │   ├── times_1900.xlsx
+│   │   │   ├── times_1904.xls
+│   │   │   ├── times_1904.xlsm
+│   │   │   ├── times_1904.xlsx
+│   │   │   ├── tips.csv
+│   │   │   ├── valid_markup.html
+│   │   │   └── wikipedia_states.html
+│   │   ├── formats
+│   │   │   ├── data
+│   │   │   │   └── unicode_series.csv
+│   │   │   ├── __init__.py
+│   │   │   ├── test_css.py
+│   │   │   ├── test_eng_formatting.py
+│   │   │   ├── test_format.py
+│   │   │   ├── test_printing.py
+│   │   │   ├── test_style.py
+│   │   │   ├── test_to_csv.py
+│   │   │   ├── test_to_excel.py
+│   │   │   ├── test_to_html.py
+│   │   │   └── test_to_latex.py
+│   │   ├── generate_legacy_storage_files.py
+│   │   ├── __init__.py
+│   │   ├── json
+│   │   │   ├── data
+│   │   │   │   ├── tsframe_iso_v012.json
+│   │   │   │   ├── tsframe_v012.json
+│   │   │   │   └── tsframe_v012.json.zip
+│   │   │   ├── __init__.py
+│   │   │   ├── test_compression.py
+│   │   │   ├── test_json_table_schema.py
+│   │   │   ├── test_normalize.py
+│   │   │   ├── test_pandas.py
+│   │   │   ├── test_readlines.py
+│   │   │   └── test_ujson.py
+│   │   ├── msgpack
+│   │   │   ├── common.py
+│   │   │   ├── data
+│   │   │   │   └── frame.mp
+│   │   │   ├── __init__.py
+│   │   │   ├── test_buffer.py
+│   │   │   ├── test_case.py
+│   │   │   ├── test_except.py
+│   │   │   ├── test_extension.py
+│   │   │   ├── test_format.py
+│   │   │   ├── test_limits.py
+│   │   │   ├── test_newspec.py
+│   │   │   ├── test_obj.py
+│   │   │   ├── test_pack.py
+│   │   │   ├── test_read_size.py
+│   │   │   ├── test_seq.py
+│   │   │   ├── test_sequnpack.py
+│   │   │   ├── test_subtype.py
+│   │   │   ├── test_unpack.py
+│   │   │   └── test_unpack_raw.py
+│   │   ├── parser
+│   │   │   ├── comment.py
+│   │   │   ├── common.py
+│   │   │   ├── compression.py
+│   │   │   ├── converters.py
+│   │   │   ├── c_parser_only.py
+│   │   │   ├── data
+│   │   │   │   ├── iris.csv
+│   │   │   │   ├── salaries.csv
+│   │   │   │   ├── salaries.csv.bz2
+│   │   │   │   ├── salaries.csv.gz
+│   │   │   │   ├── sauron.SHIFT_JIS.csv
+│   │   │   │   ├── sub_char.csv
+│   │   │   │   ├── tar_csv.tar
+│   │   │   │   ├── tar_csv.tar.gz
+│   │   │   │   ├── test1.csv
+│   │   │   │   ├── test1.csv.bz2
+│   │   │   │   ├── test1.csv.gz
+│   │   │   │   ├── test2.csv
+│   │   │   │   ├── test_mmap.csv
+│   │   │   │   ├── tips.csv
+│   │   │   │   ├── tips.csv.bz2
+│   │   │   │   ├── tips.csv.gz
+│   │   │   │   ├── unicode_series.csv
+│   │   │   │   └── utf16_ex.txt
+│   │   │   ├── dialect.py
+│   │   │   ├── dtypes.py
+│   │   │   ├── header.py
+│   │   │   ├── index_col.py
+│   │   │   ├── __init__.py
+│   │   │   ├── mangle_dupes.py
+│   │   │   ├── multithread.py
+│   │   │   ├── na_values.py
+│   │   │   ├── parse_dates.py
+│   │   │   ├── python_parser_only.py
+│   │   │   ├── quoting.py
+│   │   │   ├── skiprows.py
+│   │   │   ├── test_network.py
+│   │   │   ├── test_parsers.py
+│   │   │   ├── test_read_fwf.py
+│   │   │   ├── test_textreader.py
+│   │   │   ├── test_unsupported.py
+│   │   │   └── usecols.py
+│   │   ├── sas
+│   │   │   ├── data
+│   │   │   │   ├── airline.csv
+│   │   │   │   ├── airline.sas7bdat
+│   │   │   │   ├── datetime.csv
+│   │   │   │   ├── datetime.sas7bdat
+│   │   │   │   ├── DEMO_G.csv
+│   │   │   │   ├── DEMO_G.xpt
+│   │   │   │   ├── DRXFCD_G.csv
+│   │   │   │   ├── DRXFCD_G.xpt
+│   │   │   │   ├── paxraw_d_short.csv
+│   │   │   │   ├── paxraw_d_short.xpt
+│   │   │   │   ├── productsales.csv
+│   │   │   │   ├── productsales.sas7bdat
+│   │   │   │   ├── SSHSV1_A.csv
+│   │   │   │   ├── SSHSV1_A.xpt
+│   │   │   │   ├── test10.sas7bdat
+│   │   │   │   ├── test11.sas7bdat
+│   │   │   │   ├── test_12659.csv
+│   │   │   │   ├── test_12659.sas7bdat
+│   │   │   │   ├── test12.sas7bdat
+│   │   │   │   ├── test13.sas7bdat
+│   │   │   │   ├── test14.sas7bdat
+│   │   │   │   ├── test15.sas7bdat
+│   │   │   │   ├── test16.sas7bdat
+│   │   │   │   ├── test1.sas7bdat
+│   │   │   │   ├── test2.sas7bdat
+│   │   │   │   ├── test3.sas7bdat
+│   │   │   │   ├── test4.sas7bdat
+│   │   │   │   ├── test5.sas7bdat
+│   │   │   │   ├── test6.sas7bdat
+│   │   │   │   ├── test7.sas7bdat
+│   │   │   │   ├── test8.sas7bdat
+│   │   │   │   ├── test9.sas7bdat
+│   │   │   │   ├── test_sas7bdat_1.csv
+│   │   │   │   └── test_sas7bdat_2.csv
+│   │   │   ├── __init__.py
+│   │   │   ├── test_sas7bdat.py
+│   │   │   ├── test_sas.py
+│   │   │   └── test_xport.py
+│   │   ├── test_clipboard.py
+│   │   ├── test_common.py
+│   │   ├── test_excel.py
+│   │   ├── test_feather.py
+│   │   ├── test_gbq.py
+│   │   ├── test_html.py
+│   │   ├── test_packers.py
+│   │   ├── test_parquet.py
+│   │   ├── test_pickle.py
+│   │   ├── test_pytables.py
+│   │   ├── test_s3.py
+│   │   ├── test_sql.py
+│   │   └── test_stata.py
+│   ├── plotting
+│   │   ├── common.py
+│   │   ├── __init__.py
+│   │   ├── test_boxplot_method.py
+│   │   ├── test_converter.py
+│   │   ├── test_datetimelike.py
+│   │   ├── test_deprecated.py
+│   │   ├── test_frame.py
+│   │   ├── test_groupby.py
+│   │   ├── test_hist_method.py
+│   │   ├── test_misc.py
+│   │   └── test_series.py
+│   ├── reshape
+│   │   ├── data
+│   │   │   ├── allow_exact_matches_and_tolerance.csv
+│   │   │   ├── allow_exact_matches.csv
+│   │   │   ├── asof2.csv
+│   │   │   ├── asof.csv
+│   │   │   ├── cut_data.csv
+│   │   │   ├── quotes2.csv
+│   │   │   ├── quotes.csv
+│   │   │   ├── tolerance.csv
+│   │   │   ├── trades2.csv
+│   │   │   └── trades.csv
+│   │   ├── __init__.py
+│   │   ├── test_concat.py
+│   │   ├── test_join.py
+│   │   ├── test_merge_asof.py
+│   │   ├── test_merge_ordered.py
+│   │   ├── test_merge.py
+│   │   ├── test_pivot.py
+│   │   ├── test_reshape.py
+│   │   ├── test_tile.py
+│   │   ├── test_union_categoricals.py
+│   │   └── test_util.py
+│   ├── scalar
+│   │   ├── __init__.py
+│   │   ├── test_interval.py
+│   │   ├── test_nat.py
+│   │   ├── test_period_asfreq.py
+│   │   ├── test_period.py
+│   │   ├── test_timedelta.py
+│   │   └── test_timestamp.py
+│   ├── series
+│   │   ├── common.py
+│   │   ├── __init__.py
+│   │   ├── test_alter_axes.py
+│   │   ├── test_analytics.py
+│   │   ├── test_api.py
+│   │   ├── test_apply.py
+│   │   ├── test_asof.py
+│   │   ├── test_combine_concat.py
+│   │   ├── test_constructors.py
+│   │   ├── test_datetime_values.py
+│   │   ├── test_dtypes.py
+│   │   ├── test_indexing.py
+│   │   ├── test_internals.py
+│   │   ├── test_io.py
+│   │   ├── test_missing.py
+│   │   ├── test_operators.py
+│   │   ├── test_period.py
+│   │   ├── test_quantile.py
+│   │   ├── test_rank.py
+│   │   ├── test_replace.py
+│   │   ├── test_repr.py
+│   │   ├── test_sorting.py
+│   │   ├── test_subclass.py
+│   │   ├── test_timeseries.py
+│   │   └── test_validate.py
+│   ├── sparse
+│   │   ├── common.py
+│   │   ├── __init__.py
+│   │   ├── test_arithmetics.py
+│   │   ├── test_array.py
+│   │   ├── test_combine_concat.py
+│   │   ├── test_format.py
+│   │   ├── test_frame.py
+│   │   ├── test_groupby.py
+│   │   ├── test_indexing.py
+│   │   ├── test_libsparse.py
+│   │   ├── test_list.py
+│   │   ├── test_pivot.py
+│   │   ├── test_reshape.py
+│   │   └── test_series.py
+│   ├── test_algos.py
+│   ├── test_base.py
+│   ├── test_categorical.py
+│   ├── test_common.py
+│   ├── test_compat.py
+│   ├── test_config.py
+│   ├── test_downstream.py
+│   ├── test_errors.py
+│   ├── test_expressions.py
+│   ├── test_join.py
+│   ├── test_lib.py
+│   ├── test_multilevel.py
+│   ├── test_nanops.py
+│   ├── test_panel4d.py
+│   ├── test_panelnd.py
+│   ├── test_panel.py
+│   ├── test_resample.py
+│   ├── test_sorting.py
+│   ├── test_strings.py
+│   ├── test_take.py
+│   ├── test_window.py
+│   ├── tools
+│   │   ├── __init__.py
+│   │   └── test_numeric.py
+│   ├── tseries
+│   │   ├── conftest.py
+│   │   ├── data
+│   │   │   ├── cday-0.14.1.pickle
+│   │   │   └── dateoffset_0_15_2.pickle
+│   │   ├── __init__.py
+│   │   ├── test_frequencies.py
+│   │   ├── test_holiday.py
+│   │   ├── test_offsets.py
+│   │   └── test_timezones.py
+│   └── util
+│       ├── __init__.py
+│       ├── test_hashing.py
+│       ├── test_testing.py
+│       └── test_util.py
+├── tools (# all removed to somewhere else)
+│   ├── hashing.py (#21 deprecated, see pd.util)
+│   ├── __init__.py (#20 empty)
+│   ├── merge.py (#22 deprecated, see pd.core.reshape.concat)
+│   └── plotting.py (#23 deprecated, see pd.plotting)
+├── tseries
+│   ├── api.py
+│   ├── converter.py
+│   ├── frequencies.py
+│   ├── holiday.py
+│   ├── __init__.py
+│   ├── offsets.py
+│   ├── plotting.py
+│   └── util.py
+├── tslib.py (#15 deprecated, see pd._libs.tslib)
+├── types
+│   ├── common.py (#26 deprecated, see pd.core.dtypes.common)
+│   ├── concat.py (#25 deprecated, see pd.api.types)
+│   └── __init__.py (#24 empty)
+├── util
+│   ├── _decorators.py (#28 defines decorators to deprecate some functions; and Substitution, Appender to change the docstring)
+│   ├── decorators.py (#27 deprecated, see ./_decorators.py)
+│   ├── _depr_module.py (#29 DeprecatedModule to deprecate a module)
+│   ├── _doctools.py
+│   ├── hashing.py (#30 also deprecated as 21, see pd.core.util.hashing)
+│   ├── __init__.py (#31 import decorator and hashing)
+│   ├── _move.cpython-35m-x86_64-linux-gnu.so (#32 defines BadMove and some others)
+│   ├── _print_versions.py
+│   ├── _tester.py
+│   ├── testing.py
+│   └── _validators.py
+└── _version.py (#16 version info)
+
+93 directories, 796 files
+#grep -oP "(?<=\(#)[0-9]+" pd_structure.txt|sort -n

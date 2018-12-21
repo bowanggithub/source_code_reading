@@ -1,0 +1,528 @@
+/home/bowang/.local/lib/python3.5/site-packages/sklearn
+├── base.py
+├── _build_utils
+│   └── __init__.py
+├── calibration.py
+├── __check_build
+│   ├── _check_build.cpython-35m-x86_64-linux-gnu.so
+│   ├── __init__.py
+│   └── setup.py
+├── cluster
+│   ├── affinity_propagation_.py
+│   ├── bicluster.py
+│   ├── birch.py
+│   ├── _dbscan_inner.cpython-35m-x86_64-linux-gnu.so
+│   ├── dbscan_.py
+│   ├── _feature_agglomeration.py
+│   ├── _hierarchical.cpython-35m-x86_64-linux-gnu.so
+│   ├── hierarchical.py
+│   ├── __init__.py
+│   ├── _k_means.cpython-35m-x86_64-linux-gnu.so
+│   ├── _k_means_elkan.cpython-35m-x86_64-linux-gnu.so
+│   ├── k_means_.py
+│   ├── mean_shift_.py
+│   ├── setup.py
+│   ├── spectral.py
+│   └── tests
+│       ├── common.py
+│       ├── __init__.py
+│       ├── test_affinity_propagation.py
+│       ├── test_bicluster.py
+│       ├── test_birch.py
+│       ├── test_dbscan.py
+│       ├── test_hierarchical.py
+│       ├── test_k_means.py
+│       ├── test_mean_shift.py
+│       └── test_spectral.py
+├── covariance
+│   ├── empirical_covariance_.py
+│   ├── graph_lasso_.py
+│   ├── __init__.py
+│   ├── outlier_detection.py
+│   ├── robust_covariance.py
+│   ├── shrunk_covariance_.py
+│   └── tests
+│       ├── __init__.py
+│       ├── test_covariance.py
+│       ├── test_graph_lasso.py
+│       └── test_robust_covariance.py
+├── cross_decomposition
+│   ├── cca_.py
+│   ├── __init__.py
+│   ├── pls_.py
+│   └── tests
+│       ├── __init__.py
+│       └── test_pls.py
+├── cross_validation.py
+├── datasets
+│   ├── base.py
+│   ├── california_housing.py
+│   ├── covtype.py
+│   ├── data
+│   │   ├── boston_house_prices.csv
+│   │   ├── breast_cancer.csv
+│   │   ├── diabetes_data.csv.gz
+│   │   ├── diabetes_target.csv.gz
+│   │   ├── digits.csv.gz
+│   │   ├── iris.csv
+│   │   ├── linnerud_exercise.csv
+│   │   ├── linnerud_physiological.csv
+│   │   └── wine_data.csv
+│   ├── descr
+│   │   ├── boston_house_prices.rst
+│   │   ├── breast_cancer.rst
+│   │   ├── diabetes.rst
+│   │   ├── digits.rst
+│   │   ├── iris.rst
+│   │   ├── linnerud.rst
+│   │   └── wine_data.rst
+│   ├── images
+│   │   ├── china.jpg
+│   │   ├── flower.jpg
+│   │   └── README.txt
+│   ├── __init__.py
+│   ├── kddcup99.py
+│   ├── lfw.py
+│   ├── mlcomp.py
+│   ├── mldata.py
+│   ├── olivetti_faces.py
+│   ├── rcv1.py
+│   ├── samples_generator.py
+│   ├── setup.py
+│   ├── species_distributions.py
+│   ├── _svmlight_format.cpython-35m-x86_64-linux-gnu.so
+│   ├── svmlight_format.py
+│   ├── tests
+│   │   ├── data
+│   │   │   ├── svmlight_classification.txt
+│   │   │   ├── svmlight_invalid_order.txt
+│   │   │   ├── svmlight_invalid.txt
+│   │   │   └── svmlight_multilabel.txt
+│   │   ├── __init__.py
+│   │   ├── test_20news.py
+│   │   ├── test_base.py
+│   │   ├── test_covtype.py
+│   │   ├── test_kddcup99.py
+│   │   ├── test_lfw.py
+│   │   ├── test_mldata.py
+│   │   ├── test_rcv1.py
+│   │   ├── test_samples_generator.py
+│   │   └── test_svmlight_format.py
+│   └── twenty_newsgroups.py
+├── decomposition
+│   ├── base.py
+│   ├── cdnmf_fast.cpython-35m-x86_64-linux-gnu.so
+│   ├── dict_learning.py
+│   ├── factor_analysis.py
+│   ├── fastica_.py
+│   ├── incremental_pca.py
+│   ├── __init__.py
+│   ├── kernel_pca.py
+│   ├── nmf.py
+│   ├── _online_lda.cpython-35m-x86_64-linux-gnu.so
+│   ├── online_lda.py
+│   ├── pca.py
+│   ├── setup.py
+│   ├── sparse_pca.py
+│   ├── tests
+│   │   ├── __init__.py
+│   │   ├── test_dict_learning.py
+│   │   ├── test_factor_analysis.py
+│   │   ├── test_fastica.py
+│   │   ├── test_incremental_pca.py
+│   │   ├── test_kernel_pca.py
+│   │   ├── test_nmf.py
+│   │   ├── test_online_lda.py
+│   │   ├── test_pca.py
+│   │   ├── test_sparse_pca.py
+│   │   └── test_truncated_svd.py
+│   └── truncated_svd.py
+├── discriminant_analysis.py
+├── dummy.py
+├── ensemble
+│   ├── bagging.py
+│   ├── base.py
+│   ├── forest.py
+│   ├── _gradient_boosting.cpython-35m-x86_64-linux-gnu.so
+│   ├── gradient_boosting.py
+│   ├── iforest.py
+│   ├── __init__.py
+│   ├── partial_dependence.py
+│   ├── setup.py
+│   ├── tests
+│   │   ├── __init__.py
+│   │   ├── test_bagging.py
+│   │   ├── test_base.py
+│   │   ├── test_forest.py
+│   │   ├── test_gradient_boosting_loss_functions.py
+│   │   ├── test_gradient_boosting.py
+│   │   ├── test_iforest.py
+│   │   ├── test_partial_dependence.py
+│   │   ├── test_voting_classifier.py
+│   │   └── test_weight_boosting.py
+│   ├── voting_classifier.py
+│   └── weight_boosting.py
+├── exceptions.py
+├── externals
+│   ├── funcsigs.py
+│   ├── __init__.py
+│   ├── joblib
+│   │   ├── backports.py
+│   │   ├── _compat.py
+│   │   ├── disk.py
+│   │   ├── format_stack.py
+│   │   ├── func_inspect.py
+│   │   ├── hashing.py
+│   │   ├── __init__.py
+│   │   ├── logger.py
+│   │   ├── _memory_helpers.py
+│   │   ├── memory.py
+│   │   ├── _multiprocessing_helpers.py
+│   │   ├── my_exceptions.py
+│   │   ├── numpy_pickle_compat.py
+│   │   ├── numpy_pickle.py
+│   │   ├── numpy_pickle_utils.py
+│   │   ├── _parallel_backends.py
+│   │   ├── parallel.py
+│   │   └── pool.py
+│   ├── setup.py
+│   ├── six.py
+│   └── test_externals_setup.py
+├── feature_extraction
+│   ├── dict_vectorizer.py
+│   ├── _hashing.cpython-35m-x86_64-linux-gnu.so
+│   ├── hashing.py
+│   ├── image.py
+│   ├── __init__.py
+│   ├── setup.py
+│   ├── stop_words.py
+│   ├── tests
+│   │   ├── __init__.py
+│   │   ├── test_dict_vectorizer.py
+│   │   ├── test_feature_hasher.py
+│   │   ├── test_image.py
+│   │   └── test_text.py
+│   └── text.py
+├── feature_selection
+│   ├── base.py
+│   ├── from_model.py
+│   ├── __init__.py
+│   ├── mutual_info_.py
+│   ├── rfe.py
+│   ├── tests
+│   │   ├── __init__.py
+│   │   ├── test_base.py
+│   │   ├── test_chi2.py
+│   │   ├── test_feature_select.py
+│   │   ├── test_from_model.py
+│   │   ├── test_mutual_info.py
+│   │   ├── test_rfe.py
+│   │   └── test_variance_threshold.py
+│   ├── univariate_selection.py
+│   └── variance_threshold.py
+├── gaussian_process
+│   ├── correlation_models.py
+│   ├── gaussian_process.py
+│   ├── gpc.py
+│   ├── gpr.py
+│   ├── __init__.py
+│   ├── kernels.py
+│   ├── regression_models.py
+│   └── tests
+│       ├── __init__.py
+│       ├── test_gaussian_process.py
+│       ├── test_gpc.py
+│       ├── test_gpr.py
+│       └── test_kernels.py
+├── grid_search.py
+├── __init__.py
+├── _isotonic.cpython-35m-x86_64-linux-gnu.so
+├── isotonic.py
+├── kernel_approximation.py
+├── kernel_ridge.py
+├── learning_curve.py
+├── linear_model
+│   ├── base.py
+│   ├── bayes.py
+│   ├── cd_fast.cpython-35m-x86_64-linux-gnu.so
+│   ├── coordinate_descent.py
+│   ├── huber.py
+│   ├── __init__.py
+│   ├── least_angle.py
+│   ├── logistic.py
+│   ├── omp.py
+│   ├── passive_aggressive.py
+│   ├── perceptron.py
+│   ├── randomized_l1.py
+│   ├── ransac.py
+│   ├── ridge.py
+│   ├── sag_fast.cpython-35m-x86_64-linux-gnu.so
+│   ├── sag.py
+│   ├── setup.py
+│   ├── sgd_fast.cpython-35m-x86_64-linux-gnu.so
+│   ├── stochastic_gradient.py
+│   ├── tests
+│   │   ├── __init__.py
+│   │   ├── test_base.py
+│   │   ├── test_bayes.py
+│   │   ├── test_coordinate_descent.py
+│   │   ├── test_huber.py
+│   │   ├── test_least_angle.py
+│   │   ├── test_logistic.py
+│   │   ├── test_omp.py
+│   │   ├── test_passive_aggressive.py
+│   │   ├── test_perceptron.py
+│   │   ├── test_randomized_l1.py
+│   │   ├── test_ransac.py
+│   │   ├── test_ridge.py
+│   │   ├── test_sag.py
+│   │   ├── test_sgd.py
+│   │   ├── test_sparse_coordinate_descent.py
+│   │   └── test_theil_sen.py
+│   └── theil_sen.py
+├── manifold
+│   ├── _barnes_hut_tsne.cpython-35m-x86_64-linux-gnu.so
+│   ├── __init__.py
+│   ├── isomap.py
+│   ├── locally_linear.py
+│   ├── mds.py
+│   ├── setup.py
+│   ├── spectral_embedding_.py
+│   ├── tests
+│   │   ├── __init__.py
+│   │   ├── test_isomap.py
+│   │   ├── test_locally_linear.py
+│   │   ├── test_mds.py
+│   │   ├── test_spectral_embedding.py
+│   │   └── test_t_sne.py
+│   ├── t_sne.py
+│   └── _utils.cpython-35m-x86_64-linux-gnu.so
+├── metrics
+│   ├── base.py
+│   ├── classification.py
+│   ├── cluster
+│   │   ├── bicluster.py
+│   │   ├── expected_mutual_info_fast.cpython-35m-x86_64-linux-gnu.so
+│   │   ├── __init__.py
+│   │   ├── setup.py
+│   │   ├── supervised.py
+│   │   ├── tests
+│   │   │   ├── __init__.py
+│   │   │   ├── test_bicluster.py
+│   │   │   ├── test_supervised.py
+│   │   │   └── test_unsupervised.py
+│   │   └── unsupervised.py
+│   ├── __init__.py
+│   ├── pairwise_fast.cpython-35m-x86_64-linux-gnu.so
+│   ├── pairwise.py
+│   ├── ranking.py
+│   ├── regression.py
+│   ├── scorer.py
+│   ├── setup.py
+│   └── tests
+│       ├── __init__.py
+│       ├── test_classification.py
+│       ├── test_common.py
+│       ├── test_pairwise.py
+│       ├── test_ranking.py
+│       ├── test_regression.py
+│       └── test_score_objects.py
+├── mixture
+│   ├── base.py
+│   ├── bayesian_mixture.py
+│   ├── dpgmm.py
+│   ├── gaussian_mixture.py
+│   ├── gmm.py
+│   ├── __init__.py
+│   └── tests
+│       ├── __init__.py
+│       ├── test_bayesian_mixture.py
+│       ├── test_dpgmm.py
+│       ├── test_gaussian_mixture.py
+│       └── test_gmm.py
+├── model_selection
+│   ├── __init__.py
+│   ├── _search.py
+│   ├── _split.py
+│   ├── tests
+│   │   ├── common.py
+│   │   ├── __init__.py
+│   │   ├── test_search.py
+│   │   ├── test_split.py
+│   │   └── test_validation.py
+│   └── _validation.py
+├── multiclass.py
+├── multioutput.py
+├── naive_bayes.py
+├── neighbors
+│   ├── approximate.py
+│   ├── ball_tree.cpython-35m-x86_64-linux-gnu.so
+│   ├── base.py
+│   ├── classification.py
+│   ├── dist_metrics.cpython-35m-x86_64-linux-gnu.so
+│   ├── graph.py
+│   ├── __init__.py
+│   ├── kde.py
+│   ├── kd_tree.cpython-35m-x86_64-linux-gnu.so
+│   ├── lof.py
+│   ├── nearest_centroid.py
+│   ├── quad_tree.cpython-35m-x86_64-linux-gnu.so
+│   ├── regression.py
+│   ├── setup.py
+│   ├── tests
+│   │   ├── __init__.py
+│   │   ├── test_approximate.py
+│   │   ├── test_ball_tree.py
+│   │   ├── test_dist_metrics.py
+│   │   ├── test_kde.py
+│   │   ├── test_kd_tree.py
+│   │   ├── test_lof.py
+│   │   ├── test_nearest_centroid.py
+│   │   ├── test_neighbors.py
+│   │   └── test_quad_tree.py
+│   ├── typedefs.cpython-35m-x86_64-linux-gnu.so
+│   └── unsupervised.py
+├── neural_network
+│   ├── _base.py
+│   ├── __init__.py
+│   ├── multilayer_perceptron.py
+│   ├── rbm.py
+│   ├── _stochastic_optimizers.py
+│   └── tests
+│       ├── __init__.py
+│       ├── test_mlp.py
+│       ├── test_rbm.py
+│       └── test_stochastic_optimizers.py
+├── pipeline.py
+├── preprocessing
+│   ├── data.py
+│   ├── _function_transformer.py
+│   ├── imputation.py
+│   ├── __init__.py
+│   ├── label.py
+│   └── tests
+│       ├── __init__.py
+│       ├── test_data.py
+│       ├── test_function_transformer.py
+│       ├── test_imputation.py
+│       └── test_label.py
+├── random_projection.py
+├── semi_supervised
+│   ├── __init__.py
+│   ├── label_propagation.py
+│   └── tests
+│       ├── __init__.py
+│       └── test_label_propagation.py
+├── setup.py
+├── svm
+│   ├── base.py
+│   ├── bounds.py
+│   ├── classes.py
+│   ├── __init__.py
+│   ├── liblinear.cpython-35m-x86_64-linux-gnu.so
+│   ├── libsvm.cpython-35m-x86_64-linux-gnu.so
+│   ├── libsvm_sparse.cpython-35m-x86_64-linux-gnu.so
+│   ├── setup.py
+│   └── tests
+│       ├── __init__.py
+│       ├── test_bounds.py
+│       ├── test_sparse.py
+│       └── test_svm.py
+├── tests
+│   ├── __init__.py
+│   ├── test_base.py
+│   ├── test_calibration.py
+│   ├── test_check_build.py
+│   ├── test_common.py
+│   ├── test_config.py
+│   ├── test_cross_validation.py
+│   ├── test_discriminant_analysis.py
+│   ├── test_docstring_parameters.py
+│   ├── test_dummy.py
+│   ├── test_grid_search.py
+│   ├── test_init.py
+│   ├── test_isotonic.py
+│   ├── test_kernel_approximation.py
+│   ├── test_kernel_ridge.py
+│   ├── test_learning_curve.py
+│   ├── test_metaestimators.py
+│   ├── test_multiclass.py
+│   ├── test_multioutput.py
+│   ├── test_naive_bayes.py
+│   ├── test_pipeline.py
+│   └── test_random_projection.py
+├── tree
+│   ├── _criterion.cpython-35m-x86_64-linux-gnu.so
+│   ├── export.py
+│   ├── __init__.py
+│   ├── setup.py
+│   ├── _splitter.cpython-35m-x86_64-linux-gnu.so
+│   ├── tests
+│   │   ├── __init__.py
+│   │   ├── test_export.py
+│   │   └── test_tree.py
+│   ├── _tree.cpython-35m-x86_64-linux-gnu.so
+│   ├── tree.py
+│   └── _utils.cpython-35m-x86_64-linux-gnu.so
+└── utils
+    ├── arpack.py
+    ├── arrayfuncs.cpython-35m-x86_64-linux-gnu.so
+    ├── bench.py
+    ├── class_weight.py
+    ├── deprecation.py
+    ├── estimator_checks.py
+    ├── extmath.py
+    ├── fast_dict.cpython-35m-x86_64-linux-gnu.so
+    ├── fixes.py
+    ├── graph.py
+    ├── graph_shortest_path.cpython-35m-x86_64-linux-gnu.so
+    ├── __init__.py
+    ├── lgamma.cpython-35m-x86_64-linux-gnu.so
+    ├── linear_assignment_.py
+    ├── _logistic_sigmoid.cpython-35m-x86_64-linux-gnu.so
+    ├── metaestimators.py
+    ├── mocking.py
+    ├── multiclass.py
+    ├── murmurhash.cpython-35m-x86_64-linux-gnu.so
+    ├── optimize.py
+    ├── _random.cpython-35m-x86_64-linux-gnu.so
+    ├── random.py
+    ├── _scipy_sparse_lsqr_backport.py
+    ├── seq_dataset.cpython-35m-x86_64-linux-gnu.so
+    ├── setup.py
+    ├── sparsefuncs_fast.cpython-35m-x86_64-linux-gnu.so
+    ├── sparsefuncs.py
+    ├── sparsetools
+    │   ├── __init__.py
+    │   ├── setup.py
+    │   └── tests
+    │       └── __init__.py
+    ├── stats.py
+    ├── testing.py
+    ├── tests
+    │   ├── __init__.py
+    │   ├── test_bench.py
+    │   ├── test_class_weight.py
+    │   ├── test_deprecation.py
+    │   ├── test_estimator_checks.py
+    │   ├── test_extmath.py
+    │   ├── test_fast_dict.py
+    │   ├── test_fixes.py
+    │   ├── test_graph.py
+    │   ├── test_linear_assignment.py
+    │   ├── test_metaestimators.py
+    │   ├── test_multiclass.py
+    │   ├── test_murmurhash.py
+    │   ├── test_optimize.py
+    │   ├── test_random.py
+    │   ├── test_seq_dataset.py
+    │   ├── test_shortest_path.py
+    │   ├── test_sparsefuncs.py
+    │   ├── test_stats.py
+    │   ├── test_testing.py
+    │   ├── test_utils.py
+    │   └── test_validation.py
+    ├── validation.py
+    └── weight_vector.cpython-35m-x86_64-linux-gnu.so
+
+55 directories, 470 files
