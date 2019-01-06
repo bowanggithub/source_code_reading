@@ -18,11 +18,11 @@
 ├── conftest.py
 ├── core
 │   ├── accessor.py
-│   ├── algorithms.py
+│   ├── algorithms.py (48)
 │   ├── api.py
 │   ├── base.py
 │   ├── categorical.py
-│   ├── common.py
+│   ├── common.py (47)
 │   ├── computation
 │   │   ├── align.py
 │   │   ├── api.py
@@ -36,19 +36,19 @@
 │   │   ├── ops.py
 │   │   ├── pytables.py
 │   │   └── scope.py
-│   ├── config_init.py
-│   ├── config.py
+│   ├── config_init.py (46)
+│   ├── config.py (45)
 │   ├── datetools.py
-│   ├── dtypes
-│   │   ├── api.py
-│   │   ├── cast.py
-│   │   ├── common.py
-│   │   ├── concat.py
-│   │   ├── dtypes.py
-│   │   ├── generic.py
-│   │   ├── inference.py
-│   │   ├── __init__.py
-│   │   └── missing.py
+│   ├── dtypes (#)
+│   │   ├── api.py (#44 import from .common)
+│   │   ├── cast.py (#43 defines how to cast)
+│   │   ├── common.py (#40 defines type operations compatible with np)
+│   │   ├── concat.py (#41 defines what the return dtypes when diff dtypes arrays to concat)
+│   │   ├── dtypes.py (#39 defines np.dtype compatible extension classes)
+│   │   ├── generic.py (#37 define generic base classes for pd objects via metaclass, read https://stackoverflow.com/questions/100003/what-are-metaclasses-in-python)
+│   │   ├── inference.py (#38 basic inference like is_bool, in_number, is_list_like)
+│   │   ├── __init__.py (#36 empty)
+│   │   └── missing.py (#42 defines isnull/notnull and related operations)
 │   ├── frame.py
 │   ├── generic.py
 │   ├── groupby.py
@@ -71,8 +71,8 @@
 │   ├── index.py
 │   ├── __init__.py
 │   ├── internals.py
-│   ├── missing.py
-│   ├── nanops.py
+│   ├── missing.py (50)
+│   ├── nanops.py (49)
 │   ├── ops.py
 │   ├── panel4d.py
 │   ├── panelnd.py
@@ -871,7 +871,7 @@
 │   ├── plotting.py
 │   └── util.py
 ├── tslib.py (#15 deprecated, see pd._libs.tslib)
-├── types
+├── types (#)
 │   ├── common.py (#26 deprecated, see pd.core.dtypes.common)
 │   ├── concat.py (#25 deprecated, see pd.api.types)
 │   └── __init__.py (#24 empty)
@@ -879,14 +879,14 @@
 │   ├── _decorators.py (#28 defines decorators to deprecate some functions; and Substitution, Appender to change the docstring)
 │   ├── decorators.py (#27 deprecated, see ./_decorators.py)
 │   ├── _depr_module.py (#29 DeprecatedModule to deprecate a module)
-│   ├── _doctools.py
+│   ├── _doctools.py (#33 defines TablePlotter class for pretty layout df for documentation)
 │   ├── hashing.py (#30 also deprecated as 21, see pd.core.util.hashing)
 │   ├── __init__.py (#31 import decorator and hashing)
 │   ├── _move.cpython-35m-x86_64-linux-gnu.so (#32 defines BadMove and some others)
-│   ├── _print_versions.py
+│   ├── _print_versions.py (#34 get all dependent package version information)
 │   ├── _tester.py
 │   ├── testing.py
-│   └── _validators.py
+│   └── _validators.py (#35 utility functions for validating data or function arguments)
 └── _version.py (#16 version info)
 
 93 directories, 796 files
