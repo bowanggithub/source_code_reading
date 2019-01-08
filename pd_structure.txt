@@ -36,8 +36,8 @@
 │   │   ├── ops.py
 │   │   ├── pytables.py
 │   │   └── scope.py
-│   ├── config_init.py (46)
-│   ├── config.py (45)
+│   ├── config_init.py (#46 init the config and register config options when pd is imported)
+│   ├── config.py (#45 package-wide configurables like pd.display.options.max_rows; contextmanager class to support with ...)
 │   ├── datetools.py
 │   ├── dtypes (#)
 │   │   ├── api.py (#44 import from .common)
