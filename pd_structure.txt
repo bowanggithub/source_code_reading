@@ -2,7 +2,7 @@
 ├── api (# import defined types and help functions)
 │   ├── __init__.py (#1 empty)
 │   └── types (#)
-│       └── __init__.py (#2 import from pd.core and pd._libs)
+│       └── __init__.py (#2 import from pd.core.dtypes and pd._libs)
 ├── compat
 │   ├── chainmap_impl.py (#4 Here defines a ChainMap class and related functions)
 │   ├── chainmap.py (#3 import ChainMap from collections, if error, import from chainmap_impl.py; and define DeepChainMap; DeepChainMap is like a name space, we search a variable name from local->    global->builtin; and inner variable hides the outside ones.)
@@ -18,11 +18,11 @@
 ├── conftest.py
 ├── core
 │   ├── accessor.py
-│   ├── algorithms.py (48)
+│   ├── algorithms.py (48 generic data algos like unique, isin value_counts via methods like hashtables)
 │   ├── api.py
 │   ├── base.py
 │   ├── categorical.py
-│   ├── common.py (47)
+│   ├── common.py (#47 some misc tools like flatten, union, intersection and environment detection like to check if in ipython or in ipnb)
 │   ├── computation
 │   │   ├── align.py
 │   │   ├── api.py
@@ -99,13 +99,13 @@
 │   │   └── series.py
 │   ├── strings.py
 │   ├── tools
-│   │   ├── datetimes.py
-│   │   ├── __init__.py
-│   │   ├── numeric.py
-│   │   └── timedeltas.py
+│   │   ├── datetimes.py (55)
+│   │   ├── __init__.py (53)
+│   │   ├── numeric.py (54)
+│   │   └── timedeltas.py (56)
 │   ├── util
-│   │   ├── hashing.py
-│   │   └── __init__.py
+│   │   ├── hashing.py (52)
+│   │   └── __init__.py (51)
 │   └── window.py
 ├── errors (#)
 │   └── __init__.py (#11 defines exceptions and warnings used in pd, ex. PerformanceWarning)
