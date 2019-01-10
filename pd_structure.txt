@@ -18,7 +18,7 @@
 ├── conftest.py
 ├── core
 │   ├── accessor.py
-│   ├── algorithms.py (48 generic data algos like unique, isin value_counts via methods like hashtables)
+│   ├── algorithms.py (#48 generic data algos like unique, isin value_counts via methods like hashtables, low level algos are defined in pd._libs so no source code available)
 │   ├── api.py
 │   ├── base.py
 │   ├── categorical.py
@@ -72,7 +72,7 @@
 │   ├── __init__.py
 │   ├── internals.py
 │   ├── missing.py (50)
-│   ├── nanops.py (49)
+│   ├── nanops.py (#49 use bottleneck package to speed up some nan-related operations if possible.)
 │   ├── ops.py
 │   ├── panel4d.py
 │   ├── panelnd.py
