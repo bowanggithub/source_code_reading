@@ -1,4 +1,4 @@
-/home/bowang/.local/lib/python3.5/site-packages/pandas
+/home/bowang/.local/lib/python3.5/site-packages/pandas (0.21.0)
 ├── api (# import defined types and help functions)
 │   ├── __init__.py (#1 empty)
 │   └── types (#)
@@ -71,7 +71,7 @@
 │   ├── index.py
 │   ├── __init__.py
 │   ├── internals.py
-│   ├── missing.py (50)
+│   ├── missing.py (#50 routines for filling missing data like ffill or interpolate)
 │   ├── nanops.py (#49 use bottleneck package to speed up some nan-related operations if possible.)
 │   ├── ops.py
 │   ├── panel4d.py
@@ -99,13 +99,13 @@
 │   │   └── series.py
 │   ├── strings.py
 │   ├── tools
-│   │   ├── datetimes.py (55)
-│   │   ├── __init__.py (53)
-│   │   ├── numeric.py (54)
-│   │   └── timedeltas.py (56)
+│   │   ├── datetimes.py (#56 defines to_datetime() to cast to datetime dtype)
+│   │   ├── __init__.py (#53 empty)
+│   │   ├── numeric.py (54 defines to_numeric() to cast to numeric)
+│   │   └── timedeltas.py (#55 defines to_timedelta() to cast to timedelta dtype)
 │   ├── util
-│   │   ├── hashing.py (52)
-│   │   └── __init__.py (51)
+│   │   ├── hashing.py (#52 defines how to hash pd objects as a consequence of wierd but deterministic functions)
+│   │   └── __init__.py (#51 empty)
 │   └── window.py
 ├── errors (#)
 │   └── __init__.py (#11 defines exceptions and warnings used in pd, ex. PerformanceWarning)
