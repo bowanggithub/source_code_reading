@@ -53,22 +53,22 @@
 │   ├── generic.py
 │   ├── groupby.py
 │   ├── indexes
-│   │   ├── accessors.py
-│   │   ├── api.py
-│   │   ├── base.py
-│   │   ├── category.py
-│   │   ├── datetimelike.py
-│   │   ├── datetimes.py
-│   │   ├── frozen.py
-│   │   ├── __init__.py
-│   │   ├── interval.py
-│   │   ├── multi.py
-│   │   ├── numeric.py
-│   │   ├── period.py
-│   │   ├── range.py
-│   │   └── timedeltas.py
-│   ├── indexing.py
-│   ├── index.py
+│   │   ├── accessors.py (69)
+│   │   ├── api.py (70)
+│   │   ├── base.py (59)
+│   │   ├── category.py (60)
+│   │   ├── datetimelike.py (63)
+│   │   ├── datetimes.py (64)
+│   │   ├── frozen.py (58)
+│   │   ├── __init__.py (57)
+│   │   ├── interval.py (68)
+│   │   ├── multi.py (67)
+│   │   ├── numeric.py (61)
+│   │   ├── period.py (66)
+│   │   ├── range.py (62)
+│   │   └── timedeltas.py (65)
+│   ├── indexing.py (72)
+│   ├── index.py (71)
 │   ├── __init__.py
 │   ├── internals.py
 │   ├── missing.py (#50 routines for filling missing data like ffill or interpolate)
@@ -101,7 +101,7 @@
 │   ├── tools
 │   │   ├── datetimes.py (#56 defines to_datetime() to cast to datetime dtype)
 │   │   ├── __init__.py (#53 empty)
-│   │   ├── numeric.py (54 defines to_numeric() to cast to numeric)
+│   │   ├── numeric.py (#54 defines to_numeric() to cast to numeric)
 │   │   └── timedeltas.py (#55 defines to_timedelta() to cast to timedelta dtype)
 │   ├── util
 │   │   ├── hashing.py (#52 defines how to hash pd objects as a consequence of wierd but deterministic functions)
