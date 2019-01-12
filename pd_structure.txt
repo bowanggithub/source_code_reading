@@ -17,10 +17,10 @@
 │   └── __init__.py (#9 empty)
 ├── conftest.py
 ├── core
-│   ├── accessor.py
+│   ├── accessor.py (#57 base classes to implement properties like Series.str or Series.dt)
 │   ├── algorithms.py (#48 generic data algos like unique, isin value_counts via methods like hashtables, low level algos are defined in pd._libs so no source code available)
 │   ├── api.py
-│   ├── base.py
+│   ├── base.py (58 SelectionMixin used in groupby()[some columns].agg(some func))
 │   ├── categorical.py
 │   ├── common.py (#47 some misc tools like flatten, union, intersection and environment detection like to check if in ipython or in ipnb)
 │   ├── computation
@@ -53,22 +53,22 @@
 │   ├── generic.py
 │   ├── groupby.py
 │   ├── indexes
-│   │   ├── accessors.py (69)
-│   │   ├── api.py (70)
-│   │   ├── base.py (59)
-│   │   ├── category.py (60)
-│   │   ├── datetimelike.py (63)
-│   │   ├── datetimes.py (64)
-│   │   ├── frozen.py (58)
-│   │   ├── __init__.py (57)
-│   │   ├── interval.py (68)
-│   │   ├── multi.py (67)
-│   │   ├── numeric.py (61)
-│   │   ├── period.py (66)
-│   │   ├── range.py (62)
-│   │   └── timedeltas.py (65)
-│   ├── indexing.py (72)
-│   ├── index.py (71)
+│   │   ├── accessors.py (71)
+│   │   ├── api.py (72)
+│   │   ├── base.py (61)
+│   │   ├── category.py (62)
+│   │   ├── datetimelike.py (65)
+│   │   ├── datetimes.py (66)
+│   │   ├── frozen.py (60 defines FrozenList used in MultiIndex.names and FrozenNDArray used like in MultiIndex.labels[0])
+│   │   ├── __init__.py (59 empty)
+│   │   ├── interval.py (70)
+│   │   ├── multi.py (69)
+│   │   ├── numeric.py (63)
+│   │   ├── period.py (68)
+│   │   ├── range.py (64)
+│   │   └── timedeltas.py (67)
+│   ├── indexing.py (74)
+│   ├── index.py (73)
 │   ├── __init__.py
 │   ├── internals.py
 │   ├── missing.py (#50 routines for filling missing data like ffill or interpolate)

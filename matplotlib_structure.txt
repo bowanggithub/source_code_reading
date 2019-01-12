@@ -1,0 +1,524 @@
+/home/bowang/.local/lib/python3.5/site-packages/matplotlib
+├── afm.py
+├── _animation_data.py
+├── animation.py
+├── artist.py
+├── axes
+│   ├── _axes.py
+│   ├── _base.py
+│   ├── __init__.py
+│   └── _subplots.py
+├── axis.py
+├── backend_bases.py
+├── backend_managers.py
+├── backends
+│   ├── _backend_agg.cpython-35m-x86_64-linux-gnu.so
+│   ├── backend_agg.py
+│   ├── backend_cairo.py
+│   ├── backend_gdk.py
+│   ├── backend_gtk3agg.py
+│   ├── backend_gtk3cairo.py
+│   ├── backend_gtk3.py
+│   ├── backend_gtkagg.py
+│   ├── backend_gtkcairo.py
+│   ├── backend_gtk.py
+│   ├── backend_macosx.py
+│   ├── backend_mixed.py
+│   ├── backend_nbagg.py
+│   ├── backend_pdf.py
+│   ├── backend_pgf.py
+│   ├── backend_ps.py
+│   ├── backend_qt4agg.py
+│   ├── backend_qt4cairo.py
+│   ├── backend_qt4.py
+│   ├── backend_qt5agg.py
+│   ├── backend_qt5cairo.py
+│   ├── backend_qt5.py
+│   ├── backend_svg.py
+│   ├── backend_template.py
+│   ├── backend_tkagg.py
+│   ├── backend_tkcairo.py
+│   ├── _backend_tk.py
+│   ├── backend_webagg_core.py
+│   ├── backend_webagg.py
+│   ├── backend_wxagg.py
+│   ├── backend_wxcairo.py
+│   ├── backend_wx.py
+│   ├── _gtk3_compat.py
+│   ├── __init__.py
+│   ├── qt_compat.py
+│   ├── qt_editor
+│   │   ├── figureoptions.py
+│   │   ├── formlayout.py
+│   │   ├── formsubplottool.py
+│   │   └── __init__.py
+│   ├── _tkagg.cpython-35m-x86_64-linux-gnu.so
+│   ├── tkagg.py
+│   ├── web_backend
+│   │   ├── all_figures.html
+│   │   ├── css
+│   │   │   ├── boilerplate.css
+│   │   │   ├── fbm.css
+│   │   │   └── page.css
+│   │   ├── ipython_inline_figure.html
+│   │   ├── jquery
+│   │   │   ├── css
+│   │   │   │   └── themes
+│   │   │   │       └── base
+│   │   │   │           ├── images
+│   │   │   │           │   ├── ui-bg_diagonals-thick_18_b81900_40x40.png
+│   │   │   │           │   ├── ui-bg_diagonals-thick_20_666666_40x40.png
+│   │   │   │           │   ├── ui-bg_flat_10_000000_40x100.png
+│   │   │   │           │   ├── ui-bg_glass_100_f6f6f6_1x400.png
+│   │   │   │           │   ├── ui-bg_glass_100_fdf5ce_1x400.png
+│   │   │   │           │   ├── ui-bg_glass_65_ffffff_1x400.png
+│   │   │   │           │   ├── ui-bg_gloss-wave_35_f6a828_500x100.png
+│   │   │   │           │   ├── ui-bg_highlight-soft_100_eeeeee_1x100.png
+│   │   │   │           │   ├── ui-bg_highlight-soft_75_ffe45c_1x100.png
+│   │   │   │           │   ├── ui-icons_222222_256x240.png
+│   │   │   │           │   ├── ui-icons_228ef1_256x240.png
+│   │   │   │           │   ├── ui-icons_ef8c08_256x240.png
+│   │   │   │           │   ├── ui-icons_ffd27a_256x240.png
+│   │   │   │           │   └── ui-icons_ffffff_256x240.png
+│   │   │   │           └── jquery-ui.min.css
+│   │   │   └── js
+│   │   │       ├── jquery-1.11.3.min.js
+│   │   │       └── jquery-ui.min.js
+│   │   ├── js
+│   │   │   ├── mpl.js
+│   │   │   ├── mpl_tornado.js
+│   │   │   └── nbagg_mpl.js
+│   │   ├── mpl.js
+│   │   ├── mpl_tornado.js
+│   │   ├── nbagg_mpl.js
+│   │   ├── nbagg_uat.ipynb
+│   │   └── single_figure.html
+│   ├── windowing.py
+│   └── wx_compat.py
+├── backend_tools.py
+├── bezier.py
+├── blocking_input.py
+├── category.py
+├── cbook
+│   ├── _backports.py
+│   ├── deprecation.py
+│   └── __init__.py
+├── _cm_listed.py
+├── _cm.py
+├── cm.py
+├── _cntr.cpython-35m-x86_64-linux-gnu.so
+├── collections.py
+├── colorbar.py
+├── _color_data.py
+├── colors.py
+├── compat
+│   ├── __init__.py
+│   └── subprocess.py
+├── _constrained_layout.py
+├── container.py
+├── _contour.cpython-35m-x86_64-linux-gnu.so
+├── contour.py
+├── dates.py
+├── docstring.py
+├── dviread.py
+├── figure.py
+├── finance.py
+├── fontconfig_pattern.py
+├── font_manager.py
+├── ft2font.cpython-35m-x86_64-linux-gnu.so
+├── gridspec.py
+├── hatch.py
+├── _image.cpython-35m-x86_64-linux-gnu.so
+├── image.py
+├── __init__.py
+├── _layoutbox.py
+├── legend_handler.py
+├── legend.py
+├── .libs
+│   ├── libpng16-3e9b18e2.so.16.21.0
+│   ├── libpng16-cfdb1654.so.16.21.0
+│   └── libz-a147dcb0.so.1.2.3
+├── lines.py
+├── markers.py
+├── _mathtext_data.py
+├── mathtext.py
+├── mlab.py
+├── mpl-data
+│   ├── fonts
+│   │   ├── afm
+│   │   │   ├── cmex10.afm
+│   │   │   ├── cmmi10.afm
+│   │   │   ├── cmr10.afm
+│   │   │   ├── cmsy10.afm
+│   │   │   ├── cmtt10.afm
+│   │   │   ├── pagd8a.afm
+│   │   │   ├── pagdo8a.afm
+│   │   │   ├── pagk8a.afm
+│   │   │   ├── pagko8a.afm
+│   │   │   ├── pbkd8a.afm
+│   │   │   ├── pbkdi8a.afm
+│   │   │   ├── pbkl8a.afm
+│   │   │   ├── pbkli8a.afm
+│   │   │   ├── pcrb8a.afm
+│   │   │   ├── pcrbo8a.afm
+│   │   │   ├── pcrr8a.afm
+│   │   │   ├── pcrro8a.afm
+│   │   │   ├── phvb8a.afm
+│   │   │   ├── phvb8an.afm
+│   │   │   ├── phvbo8a.afm
+│   │   │   ├── phvbo8an.afm
+│   │   │   ├── phvl8a.afm
+│   │   │   ├── phvlo8a.afm
+│   │   │   ├── phvr8a.afm
+│   │   │   ├── phvr8an.afm
+│   │   │   ├── phvro8a.afm
+│   │   │   ├── phvro8an.afm
+│   │   │   ├── pncb8a.afm
+│   │   │   ├── pncbi8a.afm
+│   │   │   ├── pncr8a.afm
+│   │   │   ├── pncri8a.afm
+│   │   │   ├── pplb8a.afm
+│   │   │   ├── pplbi8a.afm
+│   │   │   ├── pplr8a.afm
+│   │   │   ├── pplri8a.afm
+│   │   │   ├── psyr.afm
+│   │   │   ├── ptmb8a.afm
+│   │   │   ├── ptmbi8a.afm
+│   │   │   ├── ptmr8a.afm
+│   │   │   ├── ptmri8a.afm
+│   │   │   ├── putb8a.afm
+│   │   │   ├── putbi8a.afm
+│   │   │   ├── putr8a.afm
+│   │   │   ├── putri8a.afm
+│   │   │   ├── pzcmi8a.afm
+│   │   │   └── pzdr.afm
+│   │   ├── pdfcorefonts
+│   │   │   ├── Courier.afm
+│   │   │   ├── Courier-Bold.afm
+│   │   │   ├── Courier-BoldOblique.afm
+│   │   │   ├── Courier-Oblique.afm
+│   │   │   ├── Helvetica.afm
+│   │   │   ├── Helvetica-Bold.afm
+│   │   │   ├── Helvetica-BoldOblique.afm
+│   │   │   ├── Helvetica-Oblique.afm
+│   │   │   ├── readme.txt
+│   │   │   ├── Symbol.afm
+│   │   │   ├── Times-Bold.afm
+│   │   │   ├── Times-BoldItalic.afm
+│   │   │   ├── Times-Italic.afm
+│   │   │   ├── Times-Roman.afm
+│   │   │   └── ZapfDingbats.afm
+│   │   └── ttf
+│   │       ├── cmb10.ttf
+│   │       ├── cmex10.ttf
+│   │       ├── cmmi10.ttf
+│   │       ├── cmr10.ttf
+│   │       ├── cmss10.ttf
+│   │       ├── cmsy10.ttf
+│   │       ├── cmtt10.ttf
+│   │       ├── DejaVuSans-BoldOblique.ttf
+│   │       ├── DejaVuSans-Bold.ttf
+│   │       ├── DejaVuSansDisplay.ttf
+│   │       ├── DejaVuSansMono-BoldOblique.ttf
+│   │       ├── DejaVuSansMono-Bold.ttf
+│   │       ├── DejaVuSansMono-Oblique.ttf
+│   │       ├── DejaVuSansMono.ttf
+│   │       ├── DejaVuSans-Oblique.ttf
+│   │       ├── DejaVuSans.ttf
+│   │       ├── DejaVuSerif-BoldItalic.ttf
+│   │       ├── DejaVuSerif-Bold.ttf
+│   │       ├── DejaVuSerifDisplay.ttf
+│   │       ├── DejaVuSerif-Italic.ttf
+│   │       ├── DejaVuSerif.ttf
+│   │       ├── LICENSE_STIX
+│   │       ├── SimHei.ttf
+│   │       ├── STIXGeneralBolIta.ttf
+│   │       ├── STIXGeneralBol.ttf
+│   │       ├── STIXGeneralItalic.ttf
+│   │       ├── STIXGeneral.ttf
+│   │       ├── STIXNonUniBolIta.ttf
+│   │       ├── STIXNonUniBol.ttf
+│   │       ├── STIXNonUniIta.ttf
+│   │       ├── STIXNonUni.ttf
+│   │       ├── STIXSizFiveSymReg.ttf
+│   │       ├── STIXSizFourSymBol.ttf
+│   │       ├── STIXSizFourSymReg.ttf
+│   │       ├── STIXSizOneSymBol.ttf
+│   │       ├── STIXSizOneSymReg.ttf
+│   │       ├── STIXSizThreeSymBol.ttf
+│   │       ├── STIXSizThreeSymReg.ttf
+│   │       ├── STIXSizTwoSymBol.ttf
+│   │       └── STIXSizTwoSymReg.ttf
+│   ├── images
+│   │   ├── back.gif
+│   │   ├── back_large.gif
+│   │   ├── back_large.png
+│   │   ├── back.pdf
+│   │   ├── back.png
+│   │   ├── back.svg
+│   │   ├── filesave.gif
+│   │   ├── filesave_large.gif
+│   │   ├── filesave_large.png
+│   │   ├── filesave.pdf
+│   │   ├── filesave.png
+│   │   ├── filesave.svg
+│   │   ├── forward.gif
+│   │   ├── forward_large.gif
+│   │   ├── forward_large.png
+│   │   ├── forward.pdf
+│   │   ├── forward.png
+│   │   ├── forward.svg
+│   │   ├── hand.gif
+│   │   ├── hand_large.gif
+│   │   ├── hand.pdf
+│   │   ├── hand.png
+│   │   ├── hand.svg
+│   │   ├── home.gif
+│   │   ├── home_large.gif
+│   │   ├── home_large.png
+│   │   ├── home.pdf
+│   │   ├── home.png
+│   │   ├── home.svg
+│   │   ├── matplotlib_large.png
+│   │   ├── matplotlib.pdf
+│   │   ├── matplotlib.png
+│   │   ├── matplotlib.ppm
+│   │   ├── matplotlib.svg
+│   │   ├── move.gif
+│   │   ├── move_large.gif
+│   │   ├── move_large.png
+│   │   ├── move.pdf
+│   │   ├── move.png
+│   │   ├── move.svg
+│   │   ├── qt4_editor_options_large.png
+│   │   ├── qt4_editor_options.pdf
+│   │   ├── qt4_editor_options.png
+│   │   ├── qt4_editor_options.svg
+│   │   ├── subplots.gif
+│   │   ├── subplots_large.gif
+│   │   ├── subplots_large.png
+│   │   ├── subplots.pdf
+│   │   ├── subplots.png
+│   │   ├── subplots.svg
+│   │   ├── zoom_to_rect.gif
+│   │   ├── zoom_to_rect_large.gif
+│   │   ├── zoom_to_rect_large.png
+│   │   ├── zoom_to_rect.pdf
+│   │   ├── zoom_to_rect.png
+│   │   └── zoom_to_rect.svg
+│   ├── matplotlibrc
+│   ├── sample_data
+│   │   ├── aapl.npz
+│   │   ├── ada.png
+│   │   ├── axes_grid
+│   │   │   └── bivariate_normal.npy
+│   │   ├── ct.raw.gz
+│   │   ├── data_x_x2_x3.csv
+│   │   ├── demodata.csv
+│   │   ├── eeg.dat
+│   │   ├── embedding_in_wx3.xrc
+│   │   ├── goog.npz
+│   │   ├── grace_hopper.jpg
+│   │   ├── grace_hopper.png
+│   │   ├── jacksboro_fault_dem.npz
+│   │   ├── logo2.png
+│   │   ├── membrane.dat
+│   │   ├── Minduka_Present_Blue_Pack.png
+│   │   ├── msft.csv
+│   │   ├── None_vs_nearest-pdf.png
+│   │   ├── percent_bachelors_degrees_women_usa.csv
+│   │   ├── README.txt
+│   │   └── s1045.ima.gz
+│   └── stylelib
+│       ├── bmh.mplstyle
+│       ├── classic.mplstyle
+│       ├── _classic_test.mplstyle
+│       ├── dark_background.mplstyle
+│       ├── fast.mplstyle
+│       ├── fivethirtyeight.mplstyle
+│       ├── ggplot.mplstyle
+│       ├── grayscale.mplstyle
+│       ├── seaborn-bright.mplstyle
+│       ├── seaborn-colorblind.mplstyle
+│       ├── seaborn-darkgrid.mplstyle
+│       ├── seaborn-dark.mplstyle
+│       ├── seaborn-dark-palette.mplstyle
+│       ├── seaborn-deep.mplstyle
+│       ├── seaborn.mplstyle
+│       ├── seaborn-muted.mplstyle
+│       ├── seaborn-notebook.mplstyle
+│       ├── seaborn-paper.mplstyle
+│       ├── seaborn-pastel.mplstyle
+│       ├── seaborn-poster.mplstyle
+│       ├── seaborn-talk.mplstyle
+│       ├── seaborn-ticks.mplstyle
+│       ├── seaborn-whitegrid.mplstyle
+│       ├── seaborn-white.mplstyle
+│       ├── Solarize_Light2.mplstyle
+│       └── tableau-colorblind10.mplstyle
+├── offsetbox.py
+├── patches.py
+├── _path.cpython-35m-x86_64-linux-gnu.so
+├── patheffects.py
+├── path.py
+├── _png.cpython-35m-x86_64-linux-gnu.so
+├── projections
+│   ├── geo.py
+│   ├── __init__.py
+│   └── polar.py
+├── _pylab_helpers.py
+├── pylab.py
+├── pyplot.py
+├── _qhull.cpython-35m-x86_64-linux-gnu.so
+├── quiver.py
+├── rcsetup.py
+├── sankey.py
+├── scale.py
+├── sphinxext
+│   ├── __init__.py
+│   ├── mathmpl.py
+│   ├── only_directives.py
+│   ├── plot_directive.py
+│   └── tests
+│       ├── conftest.py
+│       ├── __init__.py
+│       ├── test_tinypages.py
+│       └── tinypages
+│           ├── conf.py
+│           ├── index.rst
+│           ├── range4.py
+│           ├── range6.py
+│           ├── some_plots.rst
+│           └── _static
+│               └── README.txt
+├── spines.py
+├── stackplot.py
+├── streamplot.py
+├── style
+│   ├── core.py
+│   └── __init__.py
+├── table.py
+├── testing
+│   ├── compare.py
+│   ├── conftest.py
+│   ├── decorators.py
+│   ├── determinism.py
+│   ├── disable_internet.py
+│   ├── exceptions.py
+│   ├── __init__.py
+│   ├── jpl_units
+│   │   ├── Duration.py
+│   │   ├── EpochConverter.py
+│   │   ├── Epoch.py
+│   │   ├── __init__.py
+│   │   ├── StrConverter.py
+│   │   ├── UnitDblConverter.py
+│   │   ├── UnitDblFormatter.py
+│   │   └── UnitDbl.py
+│   ├── _nose
+│   │   ├── decorators.py
+│   │   ├── exceptions.py
+│   │   ├── __init__.py
+│   │   └── plugins
+│   │       ├── __init__.py
+│   │       ├── knownfailure.py
+│   │       └── performgc.py
+│   └── noseclasses.py
+├── tests
+│   ├── cmr10.pfb
+│   ├── conftest.py
+│   ├── __init__.py
+│   ├── mpltest.ttf
+│   ├── test_afm.py
+│   ├── test_agg.py
+│   ├── test_animation.py
+│   ├── test_arrow_patches.py
+│   ├── test_artist.py
+│   ├── test_axes.py
+│   ├── test_backend_bases.py
+│   ├── test_backend_pdf.py
+│   ├── test_backend_pgf.py
+│   ├── test_backend_ps.py
+│   ├── test_backend_qt4.py
+│   ├── test_backend_qt5.py
+│   ├── test_backends_interactive.py
+│   ├── test_backend_svg.py
+│   ├── test_basic.py
+│   ├── test_bbox_tight.py
+│   ├── test_category.py
+│   ├── test_cbook.py
+│   ├── test_collections.py
+│   ├── test_colorbar.py
+│   ├── test_colors.py
+│   ├── test_compare_images.py
+│   ├── test_constrainedlayout.py
+│   ├── test_container.py
+│   ├── test_contour.py
+│   ├── test_cycles.py
+│   ├── test_dates.py
+│   ├── test_dviread.py
+│   ├── test_figure.py
+│   ├── test_font_manager.py
+│   ├── test_gridspec.py
+│   ├── test_image.py
+│   ├── test_legend.py
+│   ├── test_lines.py
+│   ├── test_marker.py
+│   ├── test_mathtext.py
+│   ├── test_mlab.py
+│   ├── test_offsetbox.py
+│   ├── test_patches.py
+│   ├── test_patheffects.py
+│   ├── test_path.py
+│   ├── test_pickle.py
+│   ├── test_png.py
+│   ├── test_preprocess_data.py
+│   ├── test_quiver.py
+│   ├── test_rcparams.py
+│   ├── test_rcparams.rc
+│   ├── test_sankey.py
+│   ├── test_scale.py
+│   ├── test_simplification.py
+│   ├── test_skew.py
+│   ├── test_spines.py
+│   ├── test_streamplot.py
+│   ├── test_style.py
+│   ├── test_subplots.py
+│   ├── test_table.py
+│   ├── test_texmanager.py
+│   ├── test_text.py
+│   ├── test_ticker.py
+│   ├── test_tightlayout.py
+│   ├── test_transforms.py
+│   ├── test_triangulation.py
+│   ├── test_ttconv.py
+│   ├── test_type1font.py
+│   ├── test_units.py
+│   ├── test_usetex.py
+│   ├── test_utf32_be_rcparams.rc
+│   └── test_widgets.py
+├── texmanager.py
+├── textpath.py
+├── text.py
+├── ticker.py
+├── tight_bbox.py
+├── tight_layout.py
+├── transforms.py
+├── tri
+│   ├── __init__.py
+│   ├── triangulation.py
+│   ├── tricontour.py
+│   ├── trifinder.py
+│   ├── triinterpolate.py
+│   ├── tripcolor.py
+│   ├── triplot.py
+│   ├── trirefine.py
+│   └── tritools.py
+├── _tri.cpython-35m-x86_64-linux-gnu.so
+├── ttconv.cpython-35m-x86_64-linux-gnu.so
+├── type1font.py
+├── units.py
+├── _version.py
+└── widgets.py
+
+36 directories, 485 files
